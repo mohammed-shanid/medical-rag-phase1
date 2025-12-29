@@ -1,0 +1,16 @@
+venv/
+env/
+. venv/
+__pycache__/
+*.py[cod]
+*. so
+*. egg-info/
+data/chroma_data/
+logs/
+*. log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*. swp
+.env
