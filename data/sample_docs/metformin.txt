@@ -1,0 +1,1602 @@
+# METFORMIN
+
+Drug Name: Metformin
+Source: DailyMed (FDA)
+
+
+
+Metformin Hydrochloride Tablets, USP
+
+Legacy Pharmaceutical Packaging, LLC
+
+Metformin Hydrochloride
+
+Metformin Hydrochloride
+
+POLYETHYLENE GLYCOL 6000
+
+POVIDONE K90
+
+MAGNESIUM STEARATE
+
+HYPROMELLOSE 2910 (5 MPA.S)
+
+POLYETHYLENE GLYCOL 400
+
+METFORMIN HYDROCHLORIDE
+
+METFORMIN
+
+1;4;A
+
+Biconvex
+
+
+
+## DESCRIPTION
+
+
+
+Metformin hydrochloride tablets,USP are oral antihyperglycemic drugs used in the management of type 2 diabetes. Metformin hydrochloride (
+
+N,N-
+dimethylimidodicarbonimidic diamide hydrochloride) is not chemically or pharmacologically related to any other classes of oral antihyperglycemic agents. The structural formula is as shown:
+
+Metformin hydrochloride, USP is a white to off-white crystalline compound with a molecular formula of C
+
+4
+H
+
+11
+N
+
+5
+• HCl and a molecular weight of 165.63. Metformin hydrochloride, USP is freely soluble in water and is practically insoluble in acetone, ether, and chloroform. The pK
+
+a
+of metformin is 12.4. The pH of a 1% aqueous solution of metformin hydrochloride is 6.68.
+
+ Metformin hydrochloride tablets, USP for oral administration, contains 500 mg, 850 mg, or 1000 mg of metformin hydrochloride USP. Each tablet contains the inactive ingredients povidone and magnesium stearate. In addition, the coating for the 500 mg, 850 mg, and 1000 mg contains hypromellose and polyethylene glycol.
+
+Chemical Structure
+
+
+
+## CLINICAL PHARMACOLOGY
+
+
+
+Mechanism of Action
+
+Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes, lowering both basal and postprandial plasma glucose. Its pharmacologic mechanisms of action are different from other classes of oral antihyperglycemic agents. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization. Unlike sulfonylureas, metformin does not produce hypoglycemia in either patients with type 2 diabetes or normal subjects (except in special circumstances, see
+
+PRECAUTIONS
+
+) and does not cause hyperinsulinemia. With metformin therapy, insulin secretion remains unchanged while fasting insulin levels and day-long plasma insulin response may actually decrease.
+
+Pharmacokinetics
+
+Absorption and Bioavailability
+
+The absolute bioavailability of a metformin hydrochloride 500 mg tablet given under fasting conditions is approximately 50% to 60%. Studies using single oral doses of metformin hydrochloride tablets 500 to 1500 mg, and 850 to 2550 mg, indicate that there is a lack of dose proportionality with increasing doses, which is due to decreased absorption rather than an alteration in elimination. Food decreases the extent of and slightly delays the absorption of metformin, as shown by approximately a 40% lower mean peak plasma concentration (C
+
+max
+), a 25% lower area under the plasma concentration versus time curve (AUC), and a 35-minute prolongation of time to peak plasma concentration (T
+
+max
+) following administration of a single 850 mg tablet of metformin with food, compared to the same tablet strength administered fasting. The clinical relevance of these decreases is unknown.
+
+Distribution
+
+The apparent volume of distribution (V/F) of metformin following single oral doses of metformin hydrochloride tablets 850 mg averaged 654 ± 358 L. Metformin is negligibly bound to plasma proteins, in contrast to sulfonylureas, which are more than 90% protein bound. Metformin partitions into erythrocytes, most likely as a function of time. At usual clinical doses and dosing schedules of metformin hydrochloride tablets, steady state plasma concentrations of metformin are reached within 24 to 48 hours and are generally <1 mcg/mL. During controlled clinical trials of metformin hydrochloride tablets, maximum metformin plasma levels did not exceed 5 mcg/mL, even at maximum doses.
+
+Metabolism and Elimination
+
+Intravenous single-dose studies in normal subjects demonstrate that metformin is excreted unchanged in the urine and does not undergo hepatic metabolism (no metabolites have been identified in humans) nor biliary excretion. Renal clearance (see
+
+Table 1
+
+) is approximately 3.5 times greater than creatinine clearance, which indicates that tubular secretion is the major route of metformin elimination. Following oral administration, approximately 90% of the absorbed drug is eliminated via the renal route within the first 24 hours, with a plasma elimination half-life of approximately 6.2 hours. In blood, the elimination half-life is approximately 17.6 hours, suggesting that the erythrocyte mass may be a compartment of distribution.
+
+Special Populations
+
+Patients with Type 2 Diabetes
+
+In the presence of normal renal function, there are no differences between single- or multiple-dose pharmacokinetics of metformin between patients with type 2 diabetes and normal subjects (see
+
+Table 1
+
+), nor is there any accumulation of metformin in either group at usual clinical doses.
+
+Renal Impairment
+
+In patients with decreased renal function, the plasma and blood half-life of metformin is prolonged and the renal clearance is decreased (see
+
+Table 1
+
+; also see
+
+
+
+## CONTRAINDICATIONS
+
+,
+
+WARNINGS
+, PRECAUTIONS, and
+
+## DOSAGE AND ADMINISTRATION
+
+
+
+).
+
+Hepatic Impairment
+
+No pharmacokinetic studies of metformin have been conducted in patients with hepatic insufficiency
+
+(see PRECAUTIONS).
+
+Geriatrics
+
+Limited data from controlled pharmacokinetic studies of metformin hydrochloride tablets in healthy elderly subjects suggest that total plasma clearance of metformin is decreased, the half-life is prolonged, and C
+
+max
+is increased, compared to healthy young subjects. From these data, it appears that the change in metformin pharmacokinetics with aging is primarily accounted for by a change in renal function (see
+
+Table 1;
+also see
+
+WARNINGS, PRECAUTIONS,
+and
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+
+).
+
+Table 1: Select Mean (±S.D.) Metformin Pharmacokinetic Parameters Following Single or Multiple Oral Doses of Metformin Hydrochloride Tablets
+
+Subject Groups: Metformin
+
+ Hydrochloride Tablets
+
+ dose
+
+a
+(number of subjects)
+
+C
+
+max
+
+b
+(mcg/mL)
+
+T
+
+max
+
+c
+(hrs)
+
+Renal
+
+ Clearance
+
+ (mL/min)
+
+a
+All doses given fasting except the first 18 doses of the multiple dose studies
+
+b
+Peak plasma concentration
+
+c
+Time to peak plasma concentration
+
+d
+Combined results (average means) of five studies: mean age 32 years (range 23 to 59 years)
+
+e
+Kinetic study done following dose 19, given fasting
+
+f
+Elderly subjects, mean age 71 years (range 65 to 81 years)
+
+g
+CL
+
+cr
+= creatinine clearance normalized to body surface area of 1.73 m
+
+2
+
+   Healthy, nondiabetic adults:
+
+       500 mg single dose (24)
+
+       850 mg single dose (74)
+
+d
+
+       850 mg three times daily for 19 doses
+
+e
+(9)
+
+ 1.03 (±0.33)
+
+ 1.6 (±0.38)
+
+ 2.01 (±0.42)
+
+ 2.75 (±0.81)
+
+ 2.64 (±0.82)
+
+ 1.79 (±0.94)
+
+ 600 (±132)
+
+ 552 (±139)
+
+ 642 (±173)
+
+   Adults with type 2 diabetes:
+
+       850 mg single dose (23)
+
+       850 mg three times daily for 19 doses
+
+e
+(9)
+
+ 1.48 (±0.5)
+
+ 1.9 (±0.62)
+
+ 3.32 (±1.08)
+
+ 2.01 (±1.22)
+
+ 491 (±138)
+
+ 550 (±160)
+
+   Elderly
+
+f
+, healthy nondiabetic adults:
+
+       850 mg single dose (12)
+
+ 2.45 (±0.7)
+
+ 2.71 (±1.05)
+
+ 412 (±98)
+
+   Renal-impaired adults:
+
+      850 mg single dose
+
+      Mild
+(CL
+
+cr
+
+g
+61 to 90 mL/min) (5)
+
+      Moderate
+(CL
+
+cr
+31 to 60 mL/min) (4)
+
+      Severe
+(CL
+
+cr
+10 to 30 mL/min) (6)
+
+ 1.86 (±0.52)
+
+ 4.12 (±1.83)
+
+ 3.93 (±0.92)
+
+ 3.2 (±0.45)
+
+ 3.75 (±0.5)
+
+ 4.01 (±1.1)
+
+ 384 (±122)
+
+ 108 (±57)
+
+ 130 (±90)
+
+Pediatrics
+
+After administration of a single oral metformin hydrochloride 500 mg tablet with food, geometric mean metformin C
+
+max
+and AUC differed less than 5% between pediatric type 2 diabetic patients (12 to 16 years of age) and gender- and weight-matched healthy adults (20 to 45 years of age), all with normal renal function.
+
+Gender
+
+Metformin pharmacokinetic parameters did not differ significantly between normal subjects and patients with type 2 diabetes when analyzed according to gender (males = 19, females = 16). Similarly, in controlled clinical studies in patients with type 2 diabetes, the antihyperglycemic effect of metformin hydrochloride tablets was comparable in males and females.
+
+Race
+
+No studies of metformin pharmacokinetic parameters according to race have been performed. In controlled clinical studies of metformin hydrochloride tablets in patients with type 2 diabetes, the antihyperglycemic effect was comparable in whites (n=249), blacks (n=51), and Hispanics (n=24).
+
+Clinical Studies
+
+In a double-blind, placebo-controlled, multicenter U.S. clinical trial involving obese patients with type 2 diabetes whose hyperglycemia was not adequately controlled with dietary management alone (baseline fasting plasma glucose [FPG] of approximately 240 mg/dL), treatment with metformin hydrochloride tablets (up to 2550 mg/day) for 29 weeks resulted in significant mean net reductions in fasting and postprandial plasma glucose (PPG) and hemoglobin A
+
+1c
+(HbA
+
+1c
+) of 59 mg/dL, 83 mg/dL, and 1.8%, respectively, compared to the placebo group (see
+
+Table 2
+).
+
+Table 2: Metformin Hydrochloride Tablets vs Placebo Summary of Mean Changes from Baseline* in Fasting Plasma Glucose, HbA
+
+1c
+, and Body Weight, at Final Visit (29-week study)
+
+Metformin
+
+ Hydrochloride
+
+ Tablets
+
+ (n = 141)
+
+Placebo
+
+ (n = 145)
+
+p–Value
+
+ *All patients on diet therapy at Baseline
+
+ **Not statistically significant
+
+   FPG (mg/dL)
+
+      Baseline
+
+       Change at FINAL VISIT
+
+ 241.5
+
+ -53
+
+ 237.7
+
+ 6.3
+
+ NS**
+
+ 0.001
+
+   Hemoglobin A
+
+1c
+(%)
+
+      Baseline
+
+       Change at FINAL VISIT
+
+ 8.4
+
+ -1.4
+
+ 8.2
+
+ 0.4
+
+ NS**
+
+ 0.001
+
+   Body Weight (lbs)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+ 201
+
+ -1.4
+
+ 206
+
+ -2.4
+
+ NS **
+
+ NS **
+
+A 29-week, double-blind, placebo-controlled study of metformin hydrochloride tablets and glyburide, alone and in combination, was conducted in obese patients with type 2 diabetes who had failed to achieve adequate glycemic control while on maximum doses of glyburide (baseline FPG of approximately 250 mg/dL) (see
+
+Table 3
+). Patients randomized to the combination arm started therapy with metformin hydrochloride tablets 500 mg and glyburide 20 mg. At the end of each week of the first 4 weeks of the trial, these patients had their dosages of metformin hydrochloride tablets increased by 500 mg if they had failed to reach target fasting plasma glucose. After week 4, such dosage adjustments were made monthly, although no patient was allowed to exceed metformin hydrochloride tablets 2500 mg. Patients in the metformin hydrochloride tablets only arm (metformin plus placebo) followed the same titration schedule. At the end of the trial, approximately 70% of the patients in the combination group were taking metformin hydrochloride tablets 2000 mg/glyburide 20 mg or metformin hydrochloride tablets 2500 mg/glyburide 20 mg. Patients randomized to continue on glyburide experienced worsening of glycemic control, with mean increases in FPG, PPG, and HbA
+
+1c
+of 14 mg/dL, 3 mg/dL, and 0.2% respectively. In contrast, those randomized to metformin hydrochloride tablets (up to 2500 mg/day) experienced a slight improvement, with mean reductions in FPG, PPG, and HbA
+
+1c
+of 1 mg/dL, 6 mg/dL, and 0.4%, respectively. The combination of metformin hydrochloride tablets and glyburide was effective in reducing FPG, PPG, and HbA
+
+1c
+levels by 63 mg/dL, 65 mg/dL, and 1.7%, respectively. Compared to results of glyburide treatment alone, the net differences with combination treatment were -77 mg/dL, -68 mg/dL, and -1.9%, respectively (see
+
+Table 3
+).
+
+Table 3: Combined Metformin Hydrochloride Tablets/Glyburide (Comb) vs Glyburide (Glyb) or Metformin Hydrochloride Tablets (MET) Monotherapy: Summary of Mean Changes from Baseline* in Fasting Plasma Glucose, HbA
+
+1c
+, and Body Weight, at Final Visit (29-week study)
+
+Comb
+
+ (n = 213)
+
+Glyb
+
+ (n = 209)
+
+MET
+
+ (n =210)
+
+p-values
+
+Glyb vs
+
+ Comb
+
+MET vs
+
+ Comb
+
+MET vs
+
+ Glyb
+
+ * All patients on glyburide, 20 mg/day, at Baseline
+
+ ** Not statistically significant
+
+   Fasting Plasma
+
+   Glucose (mg/dL)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+ 250.5
+
+ -63.5
+
+ 247.5
+
+ 13.7
+
+ 253.9
+
+ -0.9
+
+ NS**
+
+ 0.001
+
+ NS**
+
+ 0.001
+
+ NS**
+
+ 0.025
+
+   Hemoglobin A
+
+1c
+(%)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+ 8.8
+
+ -1.7
+
+ 8.5
+
+ 0.2
+
+ 8.9
+
+ -0.4
+
+ NS**
+
+ 0.001
+
+ NS**
+
+ 0.001
+
+ 0.007
+
+ 0.001
+
+   Body Weight (lbs)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+ 202.2
+
+ 0.9
+
+ 203
+
+ -0.7
+
+ 204
+
+ -8.4
+
+ NS**
+
+ 0.011
+
+ NS**
+
+ 0.001
+
+ NS**
+
+ 0.001
+
+The magnitude of the decline in fasting blood glucose concentration following the institution of metformin hydrochloride tablets therapy was proportional to the level of fasting hyperglycemia. Patients with type 2 diabetes with higher fasting glucose concentrations experienced greater declines in plasma glucose and glycosylated hemoglobin.
+
+ In clinical studies, metformin hydrochloride tablets, alone or in combination with a sulfonylurea, lowered mean fasting serum triglycerides, total cholesterol, and LDL cholesterol levels, and had no adverse effects on other lipid levels (see
+
+Table 4
+).
+
+Table 4: Summary of Mean Percent Change From Baseline of Major Serum Lipid Variables at Final Visit (29-week studies)
+
+Metformin Hydrochloride
+
+ Tablets vs Placebo
+
+Combined Metformin Hydrochloride
+
+ Tablets/Glyburide vs Monotherapy
+
+Metformin
+
+ Hydrochloride
+
+ Tablets
+
+ (n = 141)
+
+Placebo
+
+ (n = 145)
+
+Metformin
+
+ Hydrochloride
+
+ Tablets
+
+ (n = 210)
+
+Metformin
+
+ Hydrochloride
+
+ Tablets/
+
+ Glyburide
+
+ (n = 213)
+
+Glyburide
+
+ (n = 209)
+
+   Total Cholesterol (mg/dL)
+
+      Baseline
+
+       Mean % Change at FINAL VISIT
+
+ 211
+
+ -5%
+
+ 212.3
+
+ 1%
+
+ 213.1
+
+ -2%
+
+ 215.6
+
+ -4%
+
+ 219.6
+
+ 1%
+
+   Total Triglycerides (mg/dL)
+
+      Baseline
+
+       Mean % Change at FINAL VISIT
+
+ 236.1
+
+ -16%
+
+ 203.5
+
+ 1%
+
+ 242.5
+
+ -3%
+
+ 215
+
+ -8%
+
+ 266.1
+
+ 4%
+
+   LDL-Cholesterol (mg/dL)
+
+      Baseline
+
+       Mean % Change at FINAL VISIT
+
+ 135.4
+
+ -8%
+
+ 138.5
+
+ 1%
+
+ 134.3
+
+ -4%
+
+ 136
+
+ -6%
+
+ 137.5
+
+ 3%
+
+   HDL Cholesterol (mg/dL)
+
+      Baseline
+
+       Mean % Change at FINAL VISIT
+
+ 39
+
+ 2%
+
+ 40.5
+
+ -1%
+
+ 37.2
+
+ 5%
+
+ 39
+
+ 3%
+
+ 37
+
+ 1%
+
+In contrast to sulfonylureas, body weight of individuals on metformin hydrochloride tablets tended to remain stable or even decrease somewhat (see
+
+Tables 2
+
+and
+
+3
+
+).
+
+ A 24-week, double-blind, placebo-controlled study of metformin hydrochloride tablets plus insulin versus insulin plus placebo was conducted in patients with type 2 diabetes who failed to achieve adequate glycemic control on insulin alone (see
+
+Table 5
+). Patients randomized to receive metformin hydrochloride tablets plus insulin achieved a reduction in HbA
+
+1c
+of 2.1%, compared to a 1.56% reduction in HbA
+
+1c
+achieved by insulin plus placebo. The improvement in glycemic control was achieved at the final study visit with 16% less insulin, 93 U/day vs 110.6 U/day, metformin hydrochloride tablets plus insulin versus insulin plus placebo, respectively, p=0.04.
+
+Table 5: Combined Metformin Hydrochloride Tablets/Insulin vs Placebo/Insulin Summary of Mean Changes from Baseline in HbA
+
+1c
+and Daily Insulin Dose
+
+Metformin
+
+ Hydrochloride
+
+ Tablets/Insulin
+
+ (n=26)
+
+Placebo/
+
+ Insulin
+
+ (n=28)
+
+Treatment
+
+ Difference
+
+ Mean ± SE
+
+a
+Statistically significant using analysis of covariance with baseline as covariate (p=0.04)
+
+ Not significant using analysis of variance (values shown in table)
+
+b
+Statistically significant for insulin (p=0.04)
+
+   Hemoglobin A
+
+1c
+(%)
+
+      Baseline
+
+       Change at FINAL VISIT
+
+ 8.95
+
+ -2.1
+
+ 9.32
+
+ -1.56
+
+ -0.54 ± 0.43
+
+a
+
+   Insulin Dose (U/day)
+
+      Baseline
+
+       Change at FINAL VISIT
+
+ 93.12
+
+ -0.15
+
+ 94.64
+
+ 15.93
+
+ -16.08 ± 7.77
+
+b
+
+A second double-blind, placebo-controlled study (n=51), with 16 weeks of randomized treatment, demonstrated that in patients with type 2 diabetes controlled on insulin for 8 weeks with an average HbA
+
+1c
+of 7.46 ± 0.97%, the addition of metformin hydrochloride tablets maintained similar glycemic control (HbA
+
+1c
+7.15 ± 0.61 vs 6.97 ± 0.62 for metformin hydrochloride tablets plus insulin and placebo plus insulin, respectively) with 19% less insulin versus baseline (reduction of 23.68 ± 30.22 vs an increase of 0.43 ± 25.2 units for metformin hydrochloride tablets plus insulin and placebo plus insulin, p<0.01). In addition, this study demonstrated that the combination of metformin hydrochloride tablets plus insulin resulted in reduction in body weight of 3.11 ± 4.3 lbs, compared to an increase of 1.3 ± 6.08 lbs for placebo plus insulin, p=0.01.
+
+Pediatric Clinical Studies
+
+In a double-blind, placebo-controlled study in pediatric patients aged 10 to 16 years with type 2 diabetes (mean FPG 182.2 mg/dL), treatment with metformin hydrochloride tablets (up to 2000 mg/day) for up to 16 weeks (mean duration of treatment 11 weeks) resulted in significant mean net reduction in FPG of 64.3 mg/dL, compared with placebo (see
+
+Table 10
+).
+
+Table 10: Metformin Hydrochloride Tablets vs Placebo (Pediatrics
+
+a
+) Summary of Mean Changes from Baseline* in Plasma Glucose and Body weight at Final Visit
+
+Metformin Hydrochloride
+
+ Tablets
+
+Placebo
+
+p-Value
+
+a
+Pediatric patients mean age 13.8 years (range 10 to 16 years)
+
+ * All patients on diet therapy at Baseline
+
+ ** Not statistically significant
+
+   FPG (mg/dL)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+(n=37)
+
+ 162.4
+
+ -42.9
+
+(n=36)
+
+ 192.3
+
+ 21.4
+
+ <0.001
+
+   Body Weight (lbs)
+
+       Baseline
+
+       Change at FINAL VISIT
+
+(n=39)
+
+ 205.3
+
+ -3.3
+
+(n=38)
+
+ 189
+
+ -2
+
+ NS**
+
+
+
+## INDICATIONS AND USAGE
+
+
+
+Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus.
+
+
+
+## CONTRAINDICATIONS
+
+
+
+Metformin hydrochloride tablets are contraindicated in patients with:
+
+1. Severe renal impairment (eGFR below 30 mL/min/1.73 m ) (see
+
+WARNINGS
+and
+
+PRECAUTIONS
+).
+
+ 2. Known hypersensitivity to metformin hydrochloride.
+
+ 3. Acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma. Diabetic ketoacidosis should be treated with insulin.
+
+WARNINGS
+
+Lactic Acidosis
+
+Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias . The onset of metformin-associated lactic acidosis is often subtle, accompanied only by nonspecific symptoms such as malaise, myalgias , respiratory distress , somnolence, and abdominal pain. Metformin-associated lactic acidosis was characterized by elevated blood lactate levels (>5 mmol/Liter), anion gap acidosis (without evidence of ketonuria or ketonemia), an increased lactate/pyruvate ratio; and metformin plasma levels generally >5 mcg/mL (see PRECAUTIONS).
+
+Risk factors for metformin-associated lactic acidosis include renal impairment, concomitant use of certain drugs (e.g. carbonic anhydrase inhibitors such as topiramate), age 65 years old or greater, having a radiological study with contrast, surgery and other procedures, hypoxic states (e.g., acute congestive heart failure), excessive alcohol intake, and hepatic impairment.
+
+Steps to reduce the risk of and manage metformin-associated lactic acidosis in these high risk groups are provided (see
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+,
+
+## CONTRAINDICATIONS
+
+, and PRECAUTIONS
+).
+
+If metformin-associated lactic acidosis is suspected, immediately discontinue metformin hydrochloride tablets and institute general supportive measures in a hospital setting. Prompt hemodialysis is recommended (see
+
+PRECAUTIONS
+).
+
+PRECAUTIONS
+
+General
+
+Lactic
+
+acidosis
+—
+
+There have been postmarketing cases of metformin-associated lactic acidosis, including fatal cases. These cases had a subtle onset and were accompanied by nonspecific symptoms such as malaise, myalgias, abdominal pain, respiratory distress, or increased somnolence; however, hypotension and resistant bradyarrhythmias have occurred with severe acidosis. Metformin-associated lactic acidosis was characterized by elevated blood lactate concentrations (>5 mmol/L), anion gap acidosis (without evidence of ketonuria or ketonemia), and an increased lactate:pyruvate ratio; metformin plasma levels were generally >5 mcg/mL. Metformin decreases liver uptake of lactate increasing lactate blood levels which may increase the risk of lactic acidosis, especially in patients at risk.
+
+If metformin-associated lactic acidosis is suspected, general supportive measures should be instituted promptly in a hospital setting, along with immediate discontinuation of metformin hydrochloride tablets. In metformin hydrochloride tablets treated patients with a diagnosis or strong suspicion of lactic acidosis, prompt hemodialysis is recommended to correct the acidosis and remove accumulated metformin (metformin hydrochloride is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions). Hemodialysis has often resulted in reversal of symptoms and recovery.
+
+Educate patients and their families about the symptoms of lactic acidosis and, if these symptoms occur, instruct them to discontinue metformin hydrochloride tablets and report these symptoms to their healthcare provider.
+
+For each of the known and possible risk factors for metformin-associated lactic acidosis, recommendations to reduce the risk of and manage metformin-associated lactic acidosis are provided below:
+
+Renal impairment—
+The postmarketing metformin-associated lactic acidosis cases primarily occurred in patients with significant renal impairment.
+
+The risk of metformin accumulation and metformin-associated lactic acidosis increases with the severity of renal impairment because metformin is substantially excreted by the kidney. Clinical recommendations based upon the patient’s renal function include (see
+
+## DOSAGE AND ADMINISTRATION
+
+,
+
+## CLINICAL PHARMACOLOGY
+
+):
+
+Before initiating metformin hydrochloride tablets, obtain an estimated glomerular filtration rate (eGFR)
+
+Metformin hydrochloride tablet is contraindicated in patients with an eGFR less than 30 mL/min/1.73 m
+
+2
+(see
+
+## CONTRAINDICATIONS
+
+).
+
+Initiation of metformin hydrochloride tablets are not recommended in patients with eGFR between 30 to 45 mL/min/1.73 m
+
+2
+.
+
+Obtain an eGFR at least annually in all patients taking metformin hydrochloride tablets. In patients at risk for the development of renal impairment (e.g., the elderly), renal function should be assessed more frequently.
+
+In patients taking metformin hydrochloride tablets whose eGFR falls below 45 mL/min/1.73 m
+
+2
+, assess the benefit and risk of continuing therapy.
+
+
+
+## DRUG INTERACTIONS
+
+—
+The concomitant use of metformin hydrochloride tablets with specific drugs may increase the risk of metformin-associated lactic acidosis: those that impair renal function, result in significant hemodynamic change, interfere with acid-base balance, or increase metformin accumulation. Consider more frequent monitoring of patients.
+
+Age 65 or greater—
+The risk of metformin-associated lactic acidosis increases with the patient’s age because elderly patients have a greater likelihood of having hepatic, renal, or cardiac impairment than younger patients. Assess renal function more frequently in elderly patients.
+
+Radiologic
+
+studies with contrast—
+Administration of intravascular iodinated contrast agents in metformin-treated patients has led to an acute decrease in renal function and the occurrence of lactic acidosis. Stop metformin hydrochloride tablets at the time of, or prior to, an iodinated contrast imaging procedure in patients with an eGFR between 30 and 60 mL/min/1.73 m
+
+2
+; in patients with a history of hepatic impairment, alcoholism or heart failure; or in patients who will be administered intra-arterial iodinated contrast. Re-evaluate eGFR 48 hours after the imaging procedure, and restart metformin hydrochloride tablets if renal function is stable.
+
+Surgery and other procedures—
+Withholding of food and fluids during surgical or other procedures may increase the risk for volume depletion, hypotension, and renal impairment. Metformin hydrochloride tablets should be temporarily discontinued while patients have restricted food and fluid intake.
+
+Hypoxic states—
+Several of the postmarketing cases of metformin-associated lactic acidosis occurred in the setting of acute congestive heart failure (particularly when accompanied by hypoperfusion and hypoxemia). Cardiovascular collapse (shock), acute myocardial infarction, sepsis, and other conditions associated with hypoxemia have been associated with lactic acidosis and may cause prerenal azotemia. When such an event occurs, discontinue metformin hydrochloride tablets.
+
+Excessive
+
+alcohol intake—
+Alcohol is known to potentiate the effect of metformin on lactate metabolism. Patients, therefore, should be warned against excessive alcohol intake, acute or chronic, while receiving metformin hydrochloride tablets.
+
+Hepatic impairment—
+Patients with hepatic impairment have developed cases of metformin-associated lactic acidosis. This may be due to impaired lactate clearance resulting in higher lactate blood levels. Therefore, avoid use of metformin hydrochloride tablets in patients with clinical or laboratory evidence of hepatic disease.
+
+Vitamin B
+
+12
+levels
+
+—In controlled clinical trials of metformin hydrochloride tablets of 29 weeks duration, a decrease to subnormal levels of previously normal serum vitamin B
+
+12
+levels, without clinical manifestations, was observed in approximately 7% of patients. Such decrease, possibly due to interference with B
+
+12
+absorption from the B
+
+12
+-intrinsic factor complex, is, however, very rarely associated with anemia and appears to be rapidly reversible with discontinuation of metformin hydrochloride tablets or vitamin B
+
+12
+supplementation. Measurement of hematologic parameters on an annual basis is advised in patients on metformin and any apparent abnormalities should be appropriately investigated and managed (see
+
+PRECAUTIONS: Laboratory Tests
+).
+
+Certain individuals (those with inadequate vitamin B
+
+12
+or calcium intake or absorption) appear to be predisposed to developing subnormal vitamin B
+
+12
+levels. In these patients, routine serum vitamin B measurements at 2- to 3-year intervals may be useful.
+
+Hypoglycemia
+—Hypoglycemia does not occur in patients receiving metformin alone under usual circumstances of use, but could occur when caloric intake is deficient, when strenuous exercise is not compensated by caloric supplementation, or during concomitant use with other glucose-lowering agents (such as sulfonylureas and insulin) or ethanol.
+
+Elderly, debilitated, or malnourished patients, and those with adrenal or pituitary insufficiency or alcohol intoxication are particularly susceptible to hypoglycemic effects. Hypoglycemia may be difficult to recognize in the elderly, and in people who are taking beta-adrenergic blocking drugs.
+
+Macrovascular outcomes
+—There have been no clinical studies establishing conclusive evidence of macrovascular risk reduction with metformin hydrochloride tablets or any other antidiabetic drug.
+
+Information for Patients
+
+Patients should be informed of the potential risks and benefits of metformin and of alternative modes of therapy. They should also be informed about the importance of adherence to dietary instructions, of a regular exercise program, and of regular testing of blood glucose, glycosylated hemoglobin, renal function, and hematologic parameters.
+
+ The risks of lactic acidosis, its symptoms, and conditions that predispose to its development, as noted in the
+
+WARNINGS
+
+and
+
+PRECAUTIONS
+
+sections, should be explained to patients. Patients should be advised to discontinue metformin immediately and to promptly notify their health practitioner if unexplained hyperventilation, myalgia, malaise, unusual somnolence, or other nonspecific symptoms occur. Once a patient is stabilized on any dose level of metformin, gastrointestinal symptoms, which are common during initiation of metformin therapy, are unlikely to be drug related. Later occurrence of gastrointestinal symptoms could be due to lactic acidosis or other serious disease.
+
+ Patients should be counseled against excessive alcohol intake, either acute or chronic, while receiving metformin.
+
+ Metformin hydrochloride tablets alone does not usually cause hypoglycemia, although it may occur when metformin is used in conjunction with oral sulfonylureas and insulin. When initiating combination therapy, the risks of hypoglycemia, its symptoms and treatment, and conditions that predispose to its development should be explained to patients and responsible family members. (See
+
+Patient Information
+
+printed below.)
+
+Laboratory Tests
+
+Response to all diabetic therapies should be monitored by periodic measurements of fasting blood glucose and glycosylated hemoglobin levels, with a goal of decreasing these levels toward the normal range. During initial dose titration, fasting glucose can be used to determine the therapeutic response. Thereafter, both glucose and glycosylated hemoglobin should be monitored. Measurements of glycosylated hemoglobin may be especially useful for evaluating long-term control (see also
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+
+
+).
+
+ Initial and periodic monitoring of hematologic parameters (e.g., hemoglobin/hematocrit and red blood cell indices) and renal function (serum creatinine) should be performed, at least on an annual basis. While megaloblastic anemia has rarely been seen with metformin hydrochloride tablets therapy, if this is suspected, vitamin B
+
+12
+deficiency should be excluded.
+
+Instruct patients to inform their doctor that they are taking metformin hydrochloride tablets prior to any surgical or radiological procedure, as temporary discontinuation of metformin hydrochloride tablets may be required until renal function has been confirmed to be normal (see
+
+PRECAUTIONS
+).
+
+
+
+## DRUG INTERACTIONS
+
+ (Clinical Evaluation of
+
+## DRUG INTERACTIONS
+
+ Conducted with Metformin Hydrochloride Tablets)
+
+Glyburide—
+In a single-dose interaction study in type 2 diabetes patients, coadministration of metformin and glyburide did not result in any changes in either metformin pharmacokinetics or pharmacodynamics. Decreases in glyburide AUC and C
+
+max
+were observed, but were highly variable. The single-dose nature of this study and the lack of correlation between glyburide blood levels and pharmacodynamic effects, makes the clinical significance of this interaction uncertain (see
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+: Concomitant Metformin and Oral Sulfonylurea Therapy in Adult Patients
+
+).
+
+ Furosemide—
+
+A single-dose, metformin-furosemide drug interaction study in healthy subjects demonstrated that pharmacokinetic parameters of both compounds were affected by coadministration. Furosemide increased the metformin plasma and blood C
+
+max
+by 22% and blood AUC by 15%, without any significant change in metformin renal clearance. When administered with metformin, the C
+
+max
+and AUC of furosemide were 31% and 12% smaller, respectively, than when administered alone, and the terminal half-life was decreased by 32%, without any significant change in furosemide renal clearance. No information is available about the interaction of metformin and furosemide when coadministered chronically.
+
+ Nifedipine—
+
+A single-dose, metformin-nifedipine drug interaction study in normal healthy volunteers demonstrated that coadministration of nifedipine increased plasma metformin C
+
+max
+and AUC by 20% and 9%, respectively, and increased the amount excreted in the urine. T
+
+max
+and half-life were unaffected. Nifedipine appears to enhance the absorption of metformin. Metformin had minimal effects on nifedipine.
+
+Drugs that reduce metformin clearance—
+
+Concomitant use of drugs that interfere with common renal tubular transport systems involved in the renal elimination of metformin (e.g., organic cationic transporter-2 [OCT2]/multidrug and toxin extrusion [MATE] inhibitors such as ranolazine, vandetanib, dolutegravir, and cimetidine) could increase systemic exposure to metformin and may increase the risk for lactic acidosis. Consider the benefits and risks of concomitant use. Such interaction between metformin and oral cimetidine has been observed in normal healthy volunteers in both single-and multiple-dose, metformin-cimetidine drug interaction studies, with a 60% increase in peak metformin plasma and whole blood concentrations and a 40% increase in plasma and whole blood metformin AUC. There was no change in elimination half-life in the single-dose study. Metformin had no effect on cimetidine pharmacokinetics.
+
+ In healthy volunteers, the pharmacokinetics of metformin and propranolol, and metformin and ibuprofen were not affected when coadministered in single-dose interaction studies.
+
+Metformin is negligibly bound to plasma proteins and is, therefore, less likely to interact with highly protein-bound drugs such as salicylates, sulfonamides, chloramphenicol, and probenecid, as compared to the sulfonylureas, which are extensively bound to serum proteins.
+
+Other—
+Certain drugs tend to produce hyperglycemia and may lead to loss of glycemic control. These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium channel blocking drugs, and isoniazid. When such drugs are administered to a patient receiving metformin hydrochloride tablets, the patient should be closely observed for loss of blood glucose control. When such drugs are withdrawn from a patient receiving metformin hydrochloride tablets, the patient should be observed closely for hypoglycemia.
+
+Carbonic anhydrase inhibitors—
+Topiramate or other carbonic anhydrase inhibitors (e.g., zonisamide, acetazolamide or dichlorphenamide) frequently cause a decrease in serum bicarbonate and induce nonunion gap, hyperchloremic metabolic acidosis. Concomitant use of these drugs with metformin hydrochloride tablets may increase the risk for lactic acidosis. Consider more frequent monitoring of these patients.
+
+Alcohol—
+Alcohol is known to potentiate the effect of metformin on lactate metabolism. Warn patients against excessive alcohol intake while receiving metformin hydrochloride tablets.
+
+Carcinogenesis, Mutagenesis, Impairment of Fertility
+
+Long-term carcinogenicity studies have been performed in rats (dosing duration of 104 weeks) and mice (dosing duration of 91 weeks) at doses up to and including 900 mg/kg/day and 1500 mg/kg/day, respectively. These doses are both approximately 4 times the maximum recommended human daily dose of 2000 mg based on body surface area comparisons. No evidence of carcinogenicity with metformin was found in either male or female mice. Similarly, there was no tumorigenic potential observed with metformin in male rats. There was, however, an increased incidence of benign stromal uterine polyps in female rats treated with 900 mg/kg/day.
+
+ There was no evidence of a mutagenic potential of metformin in the following
+
+in vitro
+tests: Ames test (
+
+S. typhimurium
+), gene mutation test (mouse lymphoma cells), or chromosomal aberrations test (human lymphocytes). Results in the
+
+in vivo
+mouse micronucleus test were also negative.
+
+ Fertility of male or female rats was unaffected by metformin when administered at doses as high as 600 mg/kg/day, which is approximately 3 times the maximum recommended human daily dose based on body surface area comparisons.
+
+Pregnancy
+
+Teratogenic effects
+
+Pregnancy Category B
+
+ Recent information strongly suggests that abnormal blood glucose levels during pregnancy are associated with a higher incidence of congenital abnormalities. Most experts recommend that insulin be used during pregnancy to maintain blood glucose levels as close to normal as possible. Because animal reproduction studies are not always predictive of human response, metformin should not be used during pregnancy unless clearly needed.
+
+ There are no adequate and well-controlled studies in pregnant women with metformin. Metformin was not teratogenic in rats and  rabbits at doses up to 600 mg/kg/day. This represents an exposure of about 2 and 6 times the maximum recommended human daily dose of 2000 mg based on body surface area comparisons for rats and rabbits, respectively. Determination of fetal concentrations demonstrated a partial placental barrier to metformin.
+
+Nursing Mothers
+
+Studies in lactating rats show that metformin is excreted into milk and reaches levels comparable to those in plasma. Similar studies have not been conducted in nursing mothers. Because the potential for hypoglycemia in nursing infants may exist, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. If metformin is discontinued, and if diet alone is inadequate for controlling blood glucose, insulin therapy should be considered.
+
+Pediatric Use
+
+The safety and effectiveness of metformin hydrochloride tablets for the treatment of type 2 diabetes have been established in pediatric patients ages 10 to 16 years (studies have not been conducted in pediatric patients below the age of 10 years). Use of metformin hydrochloride tablets in this age group is supported by evidence from adequate and well-controlled studies of metformin hydrochloride tablets in adults with additional data from a controlled clinical study in pediatric patients ages 10 to 16 years with type 2 diabetes, which demonstrated a similar response in glycemic control to that seen in adults. (See
+
+
+
+## CLINICAL PHARMACOLOGY
+
+: Pediatric Clinical Studies
+
+.) In this study, adverse effects were similar to those described in adults. (See
+
+
+
+## ADVERSE REACTIONS
+
+: Pediatric Patients
+.
+
+) A maximum daily dose of 2000 mg is recommended (see
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+: Recommended Dosing Schedule: Pediatrics
+
+).
+
+Geriatric Use
+
+Controlled clinical studies of metformin did not include sufficient numbers of elderly patients to determine whether they respond differently from younger patients, although other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+
+In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy and the higher risk of lactic acidosis. Assess renal function more frequently in elderly patients (see
+
+WARNINGS, PRECAUTIONS,
+and
+
+## DOSAGE AND ADMINISTRATION
+
+).
+
+
+
+## ADVERSE REACTIONS
+
+
+
+In a U.S. double-blind clinical study of metformin hydrochloride tablets in patients with type 2 diabetes, a total of 141 patients received metformin hydrochloride tablets therapy (up to 2550 mg per day) and 145 patients received placebo.
+
+## ADVERSE REACTIONS
+
+ reported in greater than 5% of the metformin hydrochloride tablets patients, and that were more common in metformin hydrochloride tablets- than placebo-treated patients, are listed in
+
+Table 11
+.
+
+Table 11: Most Common
+
+## ADVERSE REACTIONS
+
+ (>5 Percent) in a Placebo-Controlled Clinical Study of Metformin Hydrochloride Tablets Monotherapy*
+
+Adverse Reaction
+
+Metformin Hydrochloride
+
+ Tablets
+
+ Monotherapy
+
+ (n = 141)
+
+Placebo
+
+ (n = 145)
+
+% of Patients
+
+ * Reactions that were more common in metformin hydrochloride tablets- than placebo-treated patients.
+
+    Diarrhea
+
+ 53.2
+
+ 11.7
+
+    Nausea/Vomiting
+
+ 25.5
+
+ 8.3
+
+    Flatulence
+
+ 12.1
+
+ 5.5
+
+    Asthenia
+
+ 9.2
+
+ 5.5
+
+    Indigestion
+
+ 7.1
+
+ 4.1
+
+    Abdominal Discomfort
+
+ 6.4
+
+ 4.8
+
+    Headache
+
+ 5.7
+
+ 4.8
+
+Diarrhea led to discontinuation of study medication in 6% of patients treated with metformin hydrochloride tablets. Additionally, the following
+
+## ADVERSE REACTIONS
+
+ were reported in ≥ 1% to ≤ 5% of metformin hydrochloride tablets patients and were more commonly reported with metformin hydrochloride tablets than placebo: abnormal stools, hypoglycemia, myalgia, lightheaded, dyspnea, nail disorder, rash, sweating increased, taste disorder, chest discomfort, chills, flu syndrome, flushing, palpitation.
+
+Cholestatic, hepatocellular, and mixed hepatocellular liver injury have been reported with postmarketing use of metformin.
+
+Pediatric Patients
+
+In clinical trials with metformin hydrochloride tablets in pediatric patients with type 2 diabetes, the profile of
+
+## ADVERSE REACTIONS
+
+ was similar to that observed in adults.
+
+
+
+## OVERDOSAGE
+
+
+
+Overdose of metformin hydrochloride has occurred, including ingestion of amounts greater than 50 grams. Hypoglycemia was reported in approximately 10% of cases, but no causal association with metformin hydrochloride has been established. Lactic acidosis has been reported in approximately 32% of metformin overdose cases (see
+
+WARNINGS
+
+). Metformin is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions. Therefore, hemodialysis may be useful for removal of accumulated drug from patients in whom metformin
+
+## OVERDOSAGE
+
+ is suspected.
+
+
+
+## DOSAGE AND ADMINISTRATION
+
+
+
+There is no fixed dosage regimen for the management of hyperglycemia in patients with type 2 diabetes with metformin or any other pharmacologic agent. Dosage of metformin must be individualized on the basis of both effectiveness and tolerance, while not exceeding the maximum recommended daily doses. The maximum recommended daily dose of metformin hydrochloride tablets is 2550 mg in adults and 2000 mg in pediatric patients (10 to 16 years of age).
+
+ Metformin hydrochloride tablets should be given in divided doses with meals and should be started at a low dose, with gradual dose escalation, to reduce gastrointestinal side effects and to permit identification of the minimum dose required for adequate glycemic control of the patient.
+
+ During treatment initiation and dose titration (see
+
+Recommended Dosing Schedule
+
+), fasting plasma glucose should be used to determine the therapeutic response to metformin and identify the minimum effective dose for the patient. Thereafter, glycosylated hemoglobin should be measured at intervals of approximately 3 months.
+
+The therapeutic goal should be to decrease both fasting plasma glucose and glycosylated hemoglobin levels to normal or near normal by using the lowest effective dose of metformin, either when used as monotherapy or in combination with sulfonylurea or insulin.
+
+ Monitoring of blood glucose and glycosylated hemoglobin will also permit detection of primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication, and secondary failure, i.e., loss of an adequate blood glucose lowering response after an initial period of effectiveness.
+
+ Short-term administration of metformin may be sufficient during periods of transient loss of control in patients usually well-controlled on diet alone.
+
+Recommended Dosing Schedule
+
+Adults
+
+The usual starting dose of metformin hydrochloride tablets is 500 mg twice a day or 850 mg once a day, given with meals. In general, clinically significant responses are not seen at doses below 1500 mg per day. Dosage increases should be made in increments of 500 mg weekly or 850 mg every 2 weeks, up to a total of 2000 mg per day, given in divided doses. The dosage of metformin hydrochloride tablets must be individualized on the basis of both effectiveness and tolerability. Patients can also be titrated from 500 mg twice a day to 850 mg twice a day after 2 weeks. For those patients requiring additional glycemic control, metformin hydrochloride tablets may be given to a maximum daily dose of 2550 mg per day. Doses above 2000 mg may be better tolerated given 3 times a day with meals.
+
+ Pediatrics –
+
+The usual starting dose of metformin hydrochloride tablets is 500 mg twice a day, given with meals. Dosage increases should be made in increments of 500 mg weekly up to a maximum of 2000 mg per day, given in divided doses. The dosage of metformin hydrochloride tablets must be individualized on the basis of both effectiveness and tolerability.
+
+Recommendations for Use in Renal Impairment
+
+Assess renal function prior to initiation of metformin hydrochloride tablets and periodically thereafter.
+
+Metformin hydrochloride tablet is contraindicated in patients with an estimated glomerular filtration rate (eGFR) below 30 mL/minute/1.73 m
+
+2
+.
+
+Initiation of metformin hydrochloride tablets in patients with an eGFR between 30 to 45 mL/minute/1.73 m
+
+2
+is not recommended.
+
+In patients taking metformin hydrochloride tablets whose eGFR later falls below 45 mL/min/1.73 m
+
+2
+, assess the benefit risk of continuing therapy.
+
+Discontinue metformin hydrochloride tablets if the patient’s eGFR later falls below 30 mL/minute/1.73 m
+
+2
+(See
+
+WARNINGS
+and
+
+PRECAUTIONS
+).
+
+Discontinuation for Iodinated Contrast Imaging Procedures
+
+Discontinue metformin hydrochloride tablets at the time of, or prior to, an iodinated contrast imaging procedure in patients with an eGFR between 30 and 60 mL/min/1.73 m
+
+2
+; in patients with a history of liver disease, alcoholism, or heart failure; or in patients who will be administered intra-arterial iodinated contrast. Re-evaluate eGFR 48 hours after the imaging procedure; restart metformin hydrochloride tablets if renal function is stable.
+
+Concomitant Metformin and Oral Sulfonylurea Therapy in Adult Patients
+
+If patients have not responded to 4 weeks of the maximum dose of metformin monotherapy, consideration should be given to gradual addition of an oral sulfonylurea while continuing metformin at the maximum dose, even if prior primary or secondary failure to a sulfonylurea has occurred. Clinical and pharmacokinetic drug-drug interaction data are currently available only for metformin plus glyburide (glibenclamide).
+
+ With concomitant metformin and sulfonylurea therapy, the desired control of blood glucose may be obtained by adjusting the dose of each drug.  In a clinical trial of patients with type 2 diabetes and prior failure on glyburide, patients started on metformin hydrochloride tablets 500 mg and glyburide 20 mg were titrated to 1000/20 mg, 1500/20 mg, 2000/20 mg, or 2500/20 mg of metformin hydrochloride tablets and glyburide, respectively, to reach the goal of glycemic control as measured by FPG, HbA
+
+1c
+and plasma glucose response (see
+
+
+
+## CLINICAL PHARMACOLOGY
+
+: Clinical Studies
+
+).  However, attempts should be made to identify the minimum effective dose of each drug to achieve this goal. With concomitant metformin and sulfonylurea therapy, the risk of hypoglycemia associated with sulfonylurea therapy continues and may be increased. Appropriate precautions should be taken. (See Package Insert of the respective sulfonylurea.)
+
+ If patients have not satisfactorily responded to 1 to 3 months of concomitant therapy with the maximum dose of metformin and the maximum dose of an oral sulfonylurea, consider therapeutic alternatives including switching to insulin with or without metformin.
+
+Concomitant Metformin and Insulin Therapy in Adult Patients
+
+The current insulin dose should be continued upon initiation of metformin therapy. Metformin therapy should be initiated at 500 mg once daily in patients on insulin therapy. For patients not responding adequately, the dose of metformin should be increased by 500 mg after approximately 1 week and by 500 mg every week thereafter until adequate glycemic control is achieved. The maximum recommended daily dose is 2500 mg for metformin hydrochloride tablets. It is recommended that the insulin dose be decreased by 10% to 25% when fasting plasma glucose concentrations decrease to less than 120 mg/dL in patients receiving concomitant insulin and metformin. Further adjustment should be individualized based on glucose-lowering response.
+
+Specific Patient Populations
+
+Metformin is not recommended for use in pregnancy. Metformin hydrochloride tablets are not recommended in patients below the age of 10 years.
+
+ The initial and maintenance dosing of metformin should be conservative in patients with advanced age, due to the potential for decreased renal function in this population. Any dosage adjustment should be based on a careful assessment of renal function.
+
+
+
+## HOW SUPPLIED
+
+
+
+Metformin hydrochloride tablets, USP are supplied as:
+
+Metformin Hydrochloride Tablets USP, 1000 mg:
+White, biconvex, oval shaped film coated tablets with a score line in between ‘1’ and ‘4’ on one side and ‘A’ debossed on the other side.
+
+        Bottles of 60                     NDC68645-300-59
+
+Storage
+
+ Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].
+
+ Dispense in light-resistant containers.
+
+Patient Information
+
+Metformin Hydrochloride Tablets, USP
+
+
+
+ Read this information carefully before you start taking this medicine and each time you refill your prescription. There may be new information. This information does not take the place of your doctor’s advice. Ask your doctor or pharmacist if you do not understand some of this information or if you want to know more about this medicine.
+
+What is metformin?
+
+Metformin is used to treat type 2 diabetes. This is also known as non-insulin-dependent diabetes mellitus. People with type 2 diabetes are not able to make enough insulin or respond normally to the insulin their bodies make. When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical problems including kidney damage, amputations, and blindness. Diabetes is also closely linked to heart disease. The main goal of treating diabetes is to lower your blood sugar to a normal level.
+
+ High blood sugar can be lowered by diet and exercise, by a number of medicines taken by mouth, and by insulin shots. Before you take metformin, try to control your diabetes by exercise and weight loss. While you take your diabetes medicine, continue to exercise and follow the diet advised for your diabetes. No matter what your recommended diabetes management plan is, studies have shown that maintaining good blood sugar control can prevent or delay complications of diabetes, such as blindness.
+
+ Metformin help control your blood sugar in a number of ways. These include helping your body respond better to the insulin it makes naturally, decreasing the amount of sugar your liver makes, and decreasing the amount of sugar your intestines absorb. Metformin do not cause your body to make more insulin. Because of this, when taken alone, they rarely cause hypoglycemia (low blood sugar), and usually do not cause weight gain. However, when they are taken with a sulfonylurea or with insulin, hypoglycemia is more likely to occur, as is weight gain.
+
+Tell your doctor if you are pregnant or plan to become pregnant. Metformin may not be right for you. Talk with your doctor about your choices. You should also discuss your choices with your doctor if you are nursing a child.
+
+Can metformin hydrochloride tablets be used in children?
+
+Metformin hydrochloride tablets have been shown to effectively lower glucose levels in children (ages 10 to 16 years) with type 2 diabetes. Metformin hydrochloride tablets have not been studied in children younger than 10 years old. Metformin hydrochloride tablets have not been studied in combination with other oral glucose-control medicines or insulin in children. If you have any questions about the use of metformin hydrochloride tablets in children, talk with your doctor or other healthcare provider.
+
+How should I take metformin hydrochloride tablets?
+
+Your doctor will tell you how much medicine to take and when to take it. You will probably start out with a low dose of the medicine. Your doctor may slowly increase your dose until your blood sugar is better controlled. You should take metformin with meals.
+
+Your doctor may have you take other medicines along with metformin to control your blood sugar. These medicines may include insulin shots. Taking metformin hydrochloride tablets with insulin may help you better control your blood sugar while reducing the insulin dose.
+
+Continue your exercise and diet program and test your blood sugar regularly while taking metformin. Your doctor will monitor your diabetes and may perform blood tests on you from time to time to make sure your kidneys and your liver are functioning normally. There is no evidence that metformin causes harm to the liver or kidneys.
+
+Tell your doctor if you:
+
+have an illness that causes severe vomiting, diarrhea or fever, or if you drink a much lower amount of liquid than normal. These conditions can lead to severe dehydration (loss of water in your body). You may need to stop taking metformin for a short time.
+
+plan to have surgery or an x-ray procedure with injection of dye (contrast agent). You may need to stop taking metformin hydrochloride tablets for a short time.
+
+start to take other medicines or change how you take a medicine. Metformin can affect how well other drugs work, and some drugs can affect how well metformin work. Some medicines may cause high blood sugar.
+
+What should I avoid while taking metformin hydrochloride tablets?
+
+Do not drink a lot of alcoholic drinks while taking metformin. This means you should not binge drink for short periods, and you should not drink a lot of alcohol on a regular basis. Alcohol can increase the chance of getting lactic acidosis.
+
+What are the side effects of metformin?
+
+Lactic acidosis . Metformin, the active ingredient in metformin hydrochloride tablets , can cause a rare but serious condition called lactic acidosis (a buildup of an acid in the blood) that can cause death. Lactic acidosis is a medical emergency and must be treated in the hospital.
+
+Call your doctor right away if you have any of the following symptoms, which could be signs of lactic acidosis:
+
+you feel cold in your hands or feet
+
+you feel dizzy or lightheaded
+
+you have a slow or irregular heartbeat
+
+you feel very weak or tired
+
+you have unusual (not normal) muscle pain
+
+you have trouble breathing
+
+you feel sleepy or drowsy
+
+you have stomach pains, nausea or vomiting
+
+Most people who have had lactic acidosis with metformin have other things that, combined with the metformin, led to the lactic acidosis. Tell your doctor if you have any of the following, because you have a higher chance for getting lactic acidosis with metformin if you:
+
+have severe kidney problems, or your kidneys are affected by certain x-ray tests that use injectable dye
+
+have liver problems
+
+drink alcohol very often, or drink a lot of alcohol in short-term "binge" drinking
+
+get dehydrated (lose a large amount of body fluids). This can happen if you are sick with a fever, vomiting, or diarrhea. Dehydration can also happen when you sweat a lot with activity or exercise and do not drink enough fluids
+
+have surgery
+
+have a heart attack, severe infection, or stroke
+
+The best way to keep from having a problem with lactic acidosis from metformin is to tell your doctor if you have any of the problems in the list above. Your doctor may decide to stop your metformin hydrochloride tablets for a while if you have any of these things.
+
+Other Side Effects
+. Common side effects of metformin include diarrhea, nausea, and upset stomach. These side effects generally go away after you take the medicine for a while. Taking your medicine with meals can help reduce these side effects. Tell your doctor if the side effects bother you a lot, last for more than a few weeks, come back after they’ve gone away, or start later in therapy. You may need a lower dose or need to stop taking the medicine for a short period or for good.
+
+About 3 out of every 100 people who take metformin hydrochloride tablets have an unpleasant metallic taste when they start taking the medicine. It lasts for a short time.
+
+Metformin hydrochloride tablets rarely cause hypoglycemia (low blood sugar) by themselves. However, hypoglycemia can happen if you do not eat enough, if you drink alcohol, or if you take other medicines to lower blood sugar .
+
+General advice about prescription medicines
+
+If you have questions or problems, talk with your doctor or other healthcare provider. You can ask your doctor or pharmacist for the information about metformin that is written for health care professionals. Medicines are sometimes prescribed for purposes other than those listed in a patient information leaflet. Do not use metformin for a condition for which it was not prescribed. Do not share your medicine with other people.
+
+ Manufactured for:
+
+Aurobindo Pharma USA, Inc.
+
+ 2400 Route 130 North
+
+ Dayton, NJ 08810
+
+ 2
+
+ India
+
+
+
+Packaged by:
+
+Legacy Pharmaceutical Packaging, LLC
+
+ Earth City, MO 63045
+
+ Revised: 07/2018
+
+METFORMIN HYDROCHLORIDE 1000 MG
+
+Metformin Hydrochloride 1000 mg

@@ -1,0 +1,22 @@
+# Core dependencies
+sentence-transformers==2.2.2
+chromadb==0.4.22
+langchain-text-splitters==0.2.0
+
+# API & UI (optional on Kaggle, needed locally)
+fastapi==0.104.1
+uvicorn==0.24.0
+gradio==4.8.0
+pydantic==2.5.0
+
+# Utilities
+requests==2.31.0
+python-multipart==0.0.6
+
+# Already included with sentence-transformers but explicit for clarity
+torch==2.1.0
+transformers==4.35.0
+numpy==1.24.3
+
+# Logging & monitoring
+python-dotenv==1.0.0

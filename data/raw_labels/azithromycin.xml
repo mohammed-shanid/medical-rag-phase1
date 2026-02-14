@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4747c5d8-4832-c725-e063-6394a90a4fda"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Azithromycin 500mg</title>
+   <effectiveTime value="20251231"/>
+   <setId root="4747c5d8-4831-c725-e063-6394a90a4fda"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="143673015"/>
+            <name>Health Department, Oklahoma State</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="474cb50a-a2a8-6e9b-e063-6394a90ab53b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20251231"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="83112-501" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Azithromycin Dihydrate</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Azithromycin Dihydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="68094-799" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5FD1131I7S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AZITHROMYCIN DIHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2KLZ20U1M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AZITHROMYCIN ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83112-501-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83112-501-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83112-501-00" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA208249" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240215"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">OE;500</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="17" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMAGE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="4747c55c-acd0-cf0d-e063-6394a90ad84f.jpg"/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e191-6e31-f22b-e063-6394a90a74f1">
+               <id root="4747e191-6e30-f22b-e063-6394a90a74f1"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Azithromycin is a macrolide antibacterial drug indicated for the treatment of patients with mild to moderate infections caused by susceptible strains of the designated microorganisms in the specific conditions listed below. Recommended dosages and durations of therapy in adult and pediatric patient populations vary in these indications. [see Dosage and Administration (2)]</paragraph>
+                  <paragraph>1.1 Adult Patients</paragraph>
+                  <paragraph>Acute bacterial exacerbations of chronic bronchitis due to Haemophilus influenzae, Moraxella catarrhalis, or Streptococcus pneumoniae.
+  <br/>
+Acute bacterial sinusitis due to Haemophilus influenzae, Moraxella catarrhalis. or Streptococcus pneumoniae.
+  <br/>
+Community-acquired pneumonia due to Chlamydophila pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae, or Streptococcus pneumoniae in patients appropriate for oral therapy.
+  <br/>
+Pharyngitis/tonsillitis caused by Streptococcus pyogenes as an alternative to first-line therapy in individuals who cannot use first-line therapy.
+  <br/>
+Uncomplicated skin and skin structure infections due to Staphylococcus aureus, Streptococcus pyogenes, or Streptococcus agalactiae.
+  <br/>
+Urethritis and cervicitis due to Chlamydia trachomatis or Neisseria gonorrhoeae.
+  <br/>
+Genital ulcer disease in men due to Haemophilus ducreyi (chancroid). Due to the small number of women included in clinical trials, the efficacy of azithromycin in the treatment of chancroid in women has not been established.
+ </paragraph>
+                  <paragraph>1.2 Pediatric Patients</paragraph>
+                  <paragraph>[see Use in Specific Populations (8.4) and Clinical Studies (14.2)]</paragraph>
+                  <paragraph>Acute otitis media (&gt; 6 months of age) caused by Haemophilus influenzae, Moraxella catarrhalis, or Streptococcus pneumoniae
+  <br/>
+Community-acquired pneumonia (&gt; 6 months of age) due to Chlamydophila pneumoniae, Haemophilus influenzae, Mycoplasma pneumonia, or Streptococcus pneumoniae in patients appropriate for oral therapy.
+  <br/>
+Pharyngitis/tonsillitis (&gt; 2 years of age) caused by Streptococcus pyogenes as an alternative to first-line therapy in individuals who cannot use first-line therapy.
+ </paragraph>
+                  <paragraph>1.3 Limitations of Use</paragraph>
+                  <paragraph>Azithromycin should not be used in patients with pneumonia who are judged to be inappropriate for oral therapy because of moderate to severe illness or risk factors such as any of the following:</paragraph>
+                  <paragraph>patients with cystic fibrosis,
+  <br/>
+patients with nosocomial infections,
+  <br/>
+patients with known or suspected bacteremia,
+  <br/>
+patients requiring hospitalization,
+  <br/>
+elderly or debilitated patients, or
+  <br/>
+patients with significant underlying health problems that may compromise their ability to respond to their illness (including immunodeficiency or functional asplenia).
+ </paragraph>
+                  <paragraph>1.4 Usage</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of azithromycin and other antibacterial drugs, azithromycin should be used only to treat infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e360-07d1-9fad-e063-6394a90a85ec">
+               <id root="4747e360-07d0-9fad-e063-6394a90a85ec"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>2.1 Adult Patients</paragraph>
+                  <paragraph>[see Indications and Usage (1.1) and Clinical Pharmacology (12.3)]</paragraph>
+                  <paragraph>Infection* Recommended Dose/Duration of Therapy</paragraph>
+                  <paragraph>*
+  <br/>
+DUE TO THE INDICATED ORGANISMS [see Indications and Usage (1.1)]
+ </paragraph>
+                  <paragraph>Community-acquired pneumonia
+  <br/>
+Pharyngitis/tonsillitis (second-line therapy)
+  <br/>
+Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5
+  <br/>
+Acute bacterial exacerbations of chronic obstructive pulmonary disease 500 mg once daily for 3 days
+  <br/>
+OR
+  <br/>
+500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5
+  <br/>
+Acute bacterial sinusitis 500 mg once daily for 3 days
+  <br/>
+Genital ulcer disease (chancroid) One single 1 gram dose
+  <br/>
+Non-gonococcal urethritis and cervicitis One single 1 gram dose
+  <br/>
+Gonococcal urethritis and cervicitis One single 2 gram dose
+ </paragraph>
+                  <paragraph>Azithromycin tablets can be taken with or without food.</paragraph>
+                  <paragraph>2.2 Pediatric Patients1</paragraph>
+                  <paragraph>Infection* Recommended Dose/Duration of Therapy
+  <br/>
+1 see dosing tables below for maximum doses evaluated by indication
+ </paragraph>
+                  <paragraph>*
+  <br/>
+DUE TO THE INDICATED ORGANISMS [see Indications and Usage (1.2)]
+ </paragraph>
+                  <paragraph>Acute otitis media 30 mg/kg as a single dose or 10 mg/kg once daily for 3 days or 10 mg/kg as a single dose on Day 1 followed by 5 mg/kg/day on Days 2 through 5
+  <br/>
+Acute bacterial sinusitis 10 mg/kg once daily for 3 days
+  <br/>
+Community-acquired pneumonia 10 mg/kg as a single dose on Day 1 followed by 5 mg/kg once daily on Days 2 through 5
+  <br/>
+Pharyngitis/tonsillitis 12 mg/kg once daily for 5 days
+ </paragraph>
+                  <paragraph>Azithromycin for oral suspension can be taken with or without food.</paragraph>
+                  <paragraph>PEDIATRIC DOSAGE GUIDELINES FOR OTITIS MEDIA, ACUTE BACTERIAL SINUSITIS, AND COMMUNITY-ACQUIRED PNEUMONIA</paragraph>
+                  <paragraph>(Age 6 months and above, [see Use in Specific Populations (8.4)])</paragraph>
+                  <paragraph>Based on Body Weight</paragraph>
+                  <paragraph>OTITIS MEDIA AND COMMUNITY-ACQUIRED PNEUMONIA: (5-Day Regimen)*
+  <br/>
+Dosing Calculated on 10 mg/kg/day Day 1 and 5 mg/kg/day Days 2 to 5.
+  <br/>
+Weight 100 mg/5 mL 200 mg/5 mL Total mL per Treatment Course Total mg per Treatment Course
+  <br/>
+Kg Day 1 Days 2 to 5 Day 1 Days 2 to 5
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Effectiveness of the 3-day or 1-day regimen in pediatric patients with community-acquired pneumonia has not been established.
+ </paragraph>
+                  <paragraph>5 2.5 mL; (½ tsp) 1.25mL; (¼ tsp) 7.5 mL 150 mg
+  <br/>
+10 5 mL; (1 tsp) 2.5 mL; (½ tsp) 15 mL 300 mg
+  <br/>
+20 5 mL; (1 tsp) 2.5 mL; (½ tsp) 15 mL 600 mg
+  <br/>
+30 7.5 mL; (1½ tsp) 3.75 mL; (¾ tsp) 22.5 mL 900 mg
+  <br/>
+40 10 mL; (2 tsp) 5 mL; (1 tsp) 30 mL 1,200 mg
+  <br/>
+50 and above 12.5 mL; (2½ tsp) 6.25 mL; (1¼ tsp) 37.5 mL 1,500 mg
+ </paragraph>
+                  <paragraph>OTITIS MEDIA AND ACUTE BACTERIAL SINUSITIS: (3-Day Regimen)*
+  <br/>
+Dosing Calculated on 10 mg/kg/day.
+  <br/>
+Weight 100 mg/5 mL 200 mg/5 mL Total mL per Treatment Course Total mg per Treatment Course
+  <br/>
+Kg Days 1 to 3 Days 1 to 3
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Effectiveness of the 5-day or 1-day regimen in pediatric patients with acute bacterial sinusitis has not been established.
+ </paragraph>
+                  <paragraph>5 2.5 mL; (½ tsp) 7.5 mL 150 mg
+  <br/>
+10 5 mL; (1 tsp) 15 mL 300 mg
+  <br/>
+20 5 mL; (1 tsp) 15 mL 600 mg
+  <br/>
+30 7.5 mL; (1½ tsp) 22.5 mL 900 mg
+  <br/>
+40 10 mL; (2 tsp) 30 mL 1,200 mg
+  <br/>
+50 and above 12.5 mL; (2½ tsp) 37.5 mL 1,500 mg
+ </paragraph>
+                  <paragraph>OTITIS MEDIA: (1-Day Regimen)
+  <br/>
+Dosing Calculated on 30 mg/kg as a single dose.
+  <br/>
+Weight 200 mg/5 mL Total mL per Treatment Course Total mg per Treatment Course
+  <br/>
+Kg 1-Day Regimen
+  <br/>
+5 3.75 mL; (3/4 tsp) 3.75 mL 150 mg
+  <br/>
+10 7.5 mL; (1½ tsp) 7.5 mL 300 mg
+  <br/>
+20 15 mL; (3 tsp) 15 mL 600 mg
+  <br/>
+30 22.5 mL; (4½ tsp) 22.5 mL 900 mg
+  <br/>
+40 30 mL; (6 tsp) 30 mL 1,200 mg
+  <br/>
+50 and above 37.5 mL; (7½ tsp) 37.5 mL 1,500 mg
+ </paragraph>
+                  <paragraph>The safety of re-dosing azithromycin in pediatric patients who vomit after receiving 30 mg/kg as a single dose has not been established. In clinical studies involving 487 patients with acute otitis media given a single 30 mg/kg dose of azithromycin, 8 patients who vomited within 30 minutes of dosing were re-dosed at the same total dose.</paragraph>
+                  <paragraph>Pharyngitis/Tonsillitis: The recommended dose of azithromycin for children with pharyngitis/tonsillitis is 12 mg/kg once daily for 5 days. (See chart below.)</paragraph>
+                  <paragraph>PEDIATRIC DOSAGE GUIDELINES FOR PHARYNGITIS/TONSILLITIS</paragraph>
+                  <paragraph>(Age 2 years and above, [see Use in Specific Populations (8.4)])</paragraph>
+                  <paragraph>Based on Body Weight</paragraph>
+                  <paragraph>PHARYNGITIS/TONSILLITIS: (5-Day Regimen)
+  <br/>
+Dosing Calculated on 12 mg/kg/day for 5 days.
+  <br/>
+Weight 200 mg/5 mL Total mL per Treatment Course Total mg per Treatment Course
+  <br/>
+Kg Days 1 to 5
+  <br/>
+8 2.5 mL; (½ tsp) 12.5 mL 500 mg
+  <br/>
+17 5 mL; (1 tsp) 25 mL 1,000 mg
+  <br/>
+25 7.5 mL; (1½ tsp) 37.5 mL 1,500 mg
+  <br/>
+33 10 mL; (2 tsp) 50 mL 2,000 mg
+  <br/>
+40 12.5 mL; (2½ tsp) 62.5 mL 2,500 mg
+ </paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e4a6-5f8a-df23-e063-6394a90addd8">
+               <id root="4747e4a6-5f89-df23-e063-6394a90addd8"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Azithromycin Tablets USP, 500 mg (debossed "OE" on one side and "500" on the other side) are supplied as red, oval, film coated tablets containing azithromycin dihydrate equivalent to 500 mg azithromycin.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e360-07d3-9fad-e063-6394a90a85ec">
+               <id root="4747e360-07d2-9fad-e063-6394a90a85ec"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>4.1 Hypersensitivity</paragraph>
+                  <paragraph>Azithromycin is contraindicated in patients with known hypersensitivity to azithromycin, erythromycin, any macrolide, or ketolide drug.</paragraph>
+                  <paragraph>4.2 Hepatic Dysfunction</paragraph>
+                  <paragraph>Azithromycin is contraindicated in patients with a history of cholestatic jaundice/hepatic dysfunction associated with prior use of azithromycin.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e8cf-7087-2a50-e063-6294a90adea2">
+               <id root="4747e8cf-7086-2a50-e063-6294a90adea2"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Hypersensitivity</paragraph>
+                  <paragraph>Serious allergic reactions, including angioedema, anaphylaxis, and dermatologic reactions including Acute Generalized Exanthematous Pustulosis (AGEP), Stevens-Johnson syndrome, and toxic epidermal necrolysis have been reported in patients on azithromycin therapy. [see Contraindications (4.1)]</paragraph>
+                  <paragraph>Fatalities have been reported. Cases of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) have also been reported. Despite initially successful symptomatic treatment of the allergic symptoms, when symptomatic therapy was discontinued, the allergic symptoms recurred soon thereafter in some patients without further azithromycin exposure. These patients required prolonged periods of observation and symptomatic treatment. The relationship of these episodes to the long tissue half-life of azithromycin and subsequent prolonged exposure to antigen is presently unknown.</paragraph>
+                  <paragraph>If an allergic reaction occurs, the drug should be discontinued and appropriate therapy should be instituted. Physicians should be aware that allergic symptoms may reappear when symptomatic therapy has been discontinued.</paragraph>
+                  <paragraph>5.2 Hepatotoxicity</paragraph>
+                  <paragraph>Abnormal liver function, hepatitis, cholestatic jaundice, hepatic necrosis, and hepatic failure have been reported, some of which have resulted in death. Discontinue azithromycin immediately if signs and symptoms of hepatitis occur.</paragraph>
+                  <paragraph>5.3 Infantile Hypertrophic Pyloric Stenosis (IHPS)</paragraph>
+                  <paragraph>Following the use of azithromycin in neonates (treatment up to 42 days of life), IHPS has been reported. Direct parents and caregivers to contact their physician if vomiting or irritability with feeding occurs.</paragraph>
+                  <paragraph>5.4 QT Prolongation</paragraph>
+                  <paragraph>Prolonged cardiac repolarization and QT interval, imparting a risk of developing cardiac arrhythmia and torsades de pointes, have been seen with treatment with macrolides, including azithromycin. Cases of torsades de pointes have been spontaneously reported during postmarketing surveillance in patients receiving azithromycin. Providers should consider the risk of QT prolongation which can be fatal when weighing the risks and benefits of azithromycin for at-risk groups including:</paragraph>
+                  <paragraph>patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure
+  <br/>
+patients on drugs known to prolong the QT interval
+  <br/>
+patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, amiodarone, sotalol) antiarrhythmic agents.
+ </paragraph>
+                  <paragraph>Elderly patients may be more susceptible to drug-associated effects on the QT interval.</paragraph>
+                  <paragraph>5.5 Clostridium difficile-Associated Diarrhea (CDAD)</paragraph>
+                  <paragraph>Clostridium difficile-associated diarrhea has been reported with use of nearly all antibacterial agents, including azithromycin, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon, leading to overgrowth of C. difficile.</paragraph>
+                  <paragraph>C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antibacterial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                  <paragraph>5.6 Exacerbation of Myasthenia Gravis</paragraph>
+                  <paragraph>Exacerbation of symptoms of myasthenia gravis and new onset of myasthenic syndrome have been reported in patients receiving azithromycin therapy.</paragraph>
+                  <paragraph>5.7 Use in Sexually Transmitted Infections</paragraph>
+                  <paragraph>Azithromycin, at the recommended dose, should not be relied upon to treat syphilis. Antibacterial agents used to treat non-gonococcal urethritis may mask or delay the symptoms of incubating syphilis. All patients with sexually transmitted urethritis or cervicitis should have a serologic test for syphilis and appropriate testing for gonorrhea performed at the time of diagnosis. Appropriate antibacterial therapy and follow-up tests for these diseases should be initiated if infection is confirmed.</paragraph>
+                  <paragraph>5.8 Development of Drug-Resistant Bacteria</paragraph>
+                  <paragraph>Prescribing azithromycin in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747ea14-f140-ee92-e063-6394a90aea9d">
+               <id root="4747ea14-f13f-ee92-e063-6394a90aea9d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>6.1 Clinical Trials Experience</paragraph>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                  <paragraph>In clinical trials, most of the reported side effects were mild to moderate in severity and were reversible upon discontinuation of the drug. Potentially serious adverse reactions of angioedema and cholestatic jaundice were reported. Approximately 0.7% of the patients (adults and pediatric patients) from the 5-day multiple-dose clinical trials discontinued azithromycin therapy because of treatment-related adverse reactions. In adults given 500 mg/day for 3 days, the discontinuation rate due to treatment-related adverse reactions was 0.6%. In clinical trials in pediatric patients given 30 mg/kg, either as a single dose or over 3 days, discontinuation from the trials due to treatment-related adverse reactions was approximately 1%. Most of the adverse reactions leading to discontinuation were related to the gastrointestinal tract, e.g., nausea, vomiting, diarrhea, or abdominal pain. [see Clinical Studies (14.2)]</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>Multiple-dose regimens: Overall, the most common treatment-related adverse reactions in adult patients receiving multiple-dose regimens of azithromycin were related to the gastrointestinal system with diarrhea/loose stools (4% to 5%), nausea (3%), and abdominal pain (2% to 3%) being the most frequently reported.</paragraph>
+                  <paragraph>No other adverse reactions occurred in patients on the multiple-dose regimens of azithromycin with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:</paragraph>
+                  <paragraph>Cardiovascular: Palpitations, chest pain.
+  <br/>
+Gastrointestinal: Dyspepsia, flatulence, vomiting, melena, and cholestatic jaundice.
+  <br/>
+Genitourinary: Monilia, vaginitis, and nephritis.
+  <br/>
+Nervous System: Dizziness, headache, vertigo, and somnolence.
+  <br/>
+General: Fatigue.
+  <br/>
+Allergic: Rash, pruritus, photosensitivity, and angioedema.
+ </paragraph>
+                  <paragraph>Single 1-gram dose regimen:</paragraph>
+                  <paragraph>Overall, the most common adverse reactions in patients receiving a single-dose regimen of 1 gram of azithromycin were related to the gastrointestinal system and were more frequently reported than in patients receiving the multiple-dose regimen.</paragraph>
+                  <paragraph>Adverse reactions that occurred in patients on the single 1-gram dosing regimen of azithromycin with a frequency of 1% or greater included diarrhea/loose stools (7%), nausea (5%), abdominal pain (5%), vomiting (2%), dyspepsia (1%), and vaginitis (1%).</paragraph>
+                  <paragraph>Single 2-gram dose regimen:</paragraph>
+                  <paragraph>Overall, the most common adverse reactions in patients receiving a single 2-gram dose of azithromycin were related to the gastrointestinal system. Adverse reactions that occurred in patients in this study with a frequency of 1% or greater included nausea (18%), diarrhea/loose stools (14%), vomiting (7%), abdominal pain (7%), vaginitis (2%), dyspepsia (1%), and dizziness (1%). The majority of these complaints were mild in nature.</paragraph>
+                  <paragraph>Pediatric Patients</paragraph>
+                  <paragraph>Single and Multiple-dose regimens: The types of adverse reactions in pediatric patients were comparable to those seen in adults, with different incidence rates for the dosage regimens recommended in pediatric patients.</paragraph>
+                  <paragraph>Acute Otitis Media: For the recommended total dosage regimen of 30 mg/kg, the most frequent adverse reactions (≥ 1%) attributed to treatment were diarrhea, abdominal pain, vomiting, nausea, and rash. [see Dosage and Administration (2) and Clinical Studies (14.2)]</paragraph>
+                  <paragraph>The incidence, based on dosing regimen, is described in the table below:</paragraph>
+                  <paragraph>Dosage Regimen Diarrhea % Abdominal Pain % Vomiting % Nausea % Rash %
+  <br/>
+1-day 4.3% 1.4% 4.9% 1.0% 1.0%
+  <br/>
+3-day 2.6% 1.7% 2.3% 0.4% 0.6%
+  <br/>
+5-day 1.8% 1.2% 1.1% 0.5% 0.4%
+ </paragraph>
+                  <paragraph>Community-Acquired Pneumonia: For the recommended dosage regimen of 10 mg/kg on Day 1 followed by 5 mg/kg on Days 2 to 5, the most frequent adverse reactions attributed to treatment were diarrhea/loose stools, abdominal pain, vomiting, nausea, and rash.</paragraph>
+                  <paragraph>The incidence is described in the table below:</paragraph>
+                  <paragraph>Dosage Regimen Diarrhea/Loose stools % Abdominal Pain % Vomiting % Nausea % Rash %
+  <br/>
+5-day 5.8 % 1.9 % 1.9 % 1.9 % 1.6%
+ </paragraph>
+                  <paragraph>Pharyngitis/Tonsillitis: For the recommended dosage regimen of 12 mg/kg on Days 1 to 5, the most frequent adverse reactions attributed to treatment were diarrhea, vomiting, abdominal pain, nausea, and headache.</paragraph>
+                  <paragraph>The incidence is described in the table below:</paragraph>
+                  <paragraph>Dosage Regimen Diarrhea % Abdominal Pain % Vomiting % Nausea % Rash % Headache %
+  <br/>
+5-day 5.4 % 3.4 % 5.6 % 1.8 % 0.7 % 1.1 %
+ </paragraph>
+                  <paragraph>With any of the treatment regimens, no other adverse reactions occurred in pediatric patients treated with azithromycin with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:</paragraph>
+                  <paragraph>Cardiovascular: Chest pain.
+  <br/>
+Gastrointestinal: Dyspepsia, constipation, anorexia, enteritis, flatulence, gastritis, jaundice, loose stools, and oral moniliasis.
+  <br/>
+Hematologic and Lymphatic: Anemia and leukopenia.
+  <br/>
+Nervous System: Headache (otitis media dosage), hyperkinesia, dizziness, agitation, nervousness, and insomnia.
+  <br/>
+General: Fever, face edema, fatigue, fungal infection, malaise, and pain.
+  <br/>
+Allergic: Rash and allergic reaction.
+  <br/>
+Respiratory: Cough, pharyngitis, pleural effusion, and rhinitis.
+  <br/>
+Skin and Appendages: Eczema, fungal dermatitis, pruritus, sweating, urticaria, and vesiculobullous rash.
+  <br/>
+Special Senses: Conjunctivitis.
+ </paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph>The following adverse reactions have been identified during post-approval use of azithromycin. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Adverse reactions reported with azithromycin during the postmarketing period in adult and/or pediatric patients for which a causal relationship may not be established include:</paragraph>
+                  <paragraph>Allergic: Arthralgia, edema, urticaria, and angioedema.
+  <br/>
+Cardiovascular: Arrhythmias including ventricular tachycardia and hypotension. There have been reports of QT prolongation and torsades de pointes.
+  <br/>
+Gastrointestinal: Anorexia, constipation, dyspepsia, flatulence, vomiting/diarrhea, pseudomembranous colitis, pancreatitis, oral candidiasis, pyloric stenosis, and reports of tongue discoloration.
+  <br/>
+General: Asthenia, paresthesia, fatigue, malaise, and anaphylaxis.
+  <br/>
+Genitourinary: Interstitial nephritis, acute renal failure, and vaginitis.
+  <br/>
+Hematopoietic: Thrombocytopenia.
+  <br/>
+Liver/Biliary: Abnormal liver function, hepatitis, cholestatic jaundice, hepatic necrosis, and hepatic failure. [see Warnings and Precautions (5.2)]
+  <br/>
+Nervous System: Convulsions, dizziness/vertigo, headache, somnolence, hyperactivity, nervousness, agitation, and syncope.
+  <br/>
+Psychiatric: Aggressive reaction and anxiety.
+  <br/>
+Skin/Appendages: Pruritus serious skin reactions including erythema multiforme, AGEP, Stevens-Johnson Syndrome, toxic epidermal necrolysis, and DRESS.
+  <br/>
+Special Senses: Hearing disturbances including hearing loss, deafness and/or tinnitus, and reports of taste/smell perversion and/or loss.
+ </paragraph>
+                  <paragraph>6.3 Laboratory Abnormalities</paragraph>
+                  <paragraph>Adults:</paragraph>
+                  <paragraph>Clinically significant abnormalities (irrespective of drug relationship) occurring during the clinical trials were reported as follows: with an incidence of greater than 1%: decreased hemoglobin, hematocrit, lymphocytes, neutrophils, and blood glucose; elevated serum creatine phosphokinase, potassium, ALT, GGT, AST, BUN, creatinine, blood glucose, platelet count, lymphocytes, neutrophils, and eosinophils; with an incidence of less than 1%: leukopenia, neutropenia, decreased sodium, potassium, platelet count, elevated monocytes, basophils, bicarbonate, serum alkaline phosphatase, bilirubin, LDH, and phosphate. The majority of subjects with elevated serum creatinine also had abnormal values at baseline. When follow-up was provided, changes in laboratory tests appeared to be reversible.</paragraph>
+                  <paragraph>In multiple-dose clinical trials involving more than 5,000 patients, four patients discontinued therapy because of treatment-related liver enzyme abnormalities and one because of a renal function abnormality.</paragraph>
+                  <paragraph>Pediatric Patients:</paragraph>
+                  <paragraph>One, Three, and Five Day Regimens</paragraph>
+                  <paragraph>Laboratory data collected from comparative clinical trials employing two 3-day regimens (30 mg/kg or 60 mg/kg in divided doses over 3 days), or two 5-day regimens (30 mg/kg or 60 mg/kg in divided doses over 5 days) were similar for regimens of azithromycin and all comparators combined, with most clinically significant laboratory abnormalities occurring at incidences of 1% to 5%. Laboratory data for patients receiving 30 mg/kg as a single dose were collected in one single center trial. In that trial, an absolute neutrophil count between 500 cells/mm3 to 1,500 cells/mm3 was observed in 10/64 patients receiving 30 mg/kg as a single dose, 9/62 patients receiving 30 mg/kg given over 3 days, and 8/63 comparator patients. No patient had an absolute neutrophil count &lt;500 cells/mm3.</paragraph>
+                  <paragraph>In multiple-dose clinical trials involving approximately 4,700 pediatric patients, no patients discontinued therapy because of treatment-related laboratory abnormalities.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e191-6e36-f22b-e063-6394a90a74f1">
+               <id root="4747e191-6e35-f22b-e063-6394a90a74f1"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>7.1 Nelfinavir</paragraph>
+                  <paragraph>Co-administration of nelfinavir at steady-state with a single oral dose of azithromycin resulted in increased azithromycin serum concentrations. Although a dose adjustment of azithromycin is not recommended when administered in combination with nelfinavir, close monitoring for known adverse reactions of azithromycin, such as liver enzyme abnormalities and hearing impairment, is warranted. [see Adverse Reactions (6)]</paragraph>
+                  <paragraph>7.2 Warfarin</paragraph>
+                  <paragraph>Spontaneous postmarketing reports suggest that concomitant administration of azithromycin may potentiate the effects of oral anticoagulants such as warfarin, although the prothrombin time was not affected in the dedicated drug interaction study with azithromycin and warfarin. Prothrombin times should be carefully monitored while patients are receiving azithromycin and oral anticoagulants concomitantly.</paragraph>
+                  <paragraph>7.3 Potential Drug-Drug Interactions with Macrolides</paragraph>
+                  <paragraph>Interactions with digoxin, colchicine or phenytoin have not been reported in clinical trials with azithromycin. No specific drug interaction studies have been performed to evaluate potential drug-drug interactions. However, drug interactions have been observed with other macrolide products. Until further data are developed regarding drug interactions when digoxin, colchicine or phenytoin are used with azithromycin careful monitoring of patients is advised.</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e191-6e38-f22b-e063-6394a90a74f1">
+               <id root="4747e191-6e37-f22b-e063-6394a90a74f1"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>Available data from published literature and postmarketing experience over several decades with azithromycin use in pregnant women have not identified any drug-associated risks for major birth defects, miscarriage, or adverse maternal or fetal outcomes (see Data). Developmental toxicity studies with azithromycin in rats, mice, and rabbits showed no drug-induced fetal malformations at doses up to 4, 2, and 2 times, respectively, an adult human daily dose of 500 mg based on body surface area. Decreased viability and delayed development were observed in the offspring of pregnant rats administered azithromycin from day 6 of pregnancy through weaning at a dose equivalent to 4 times an adult human daily dose of 500 mg based on body surface area (see Data).</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated populations is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Human Data</paragraph>
+                  <paragraph>Available data from published observational studies, case series, and case reports over several decades do not suggest an increased risk for major birth defects, miscarriage, or adverse maternal or fetal outcomes with azithromycin use in pregnant women. Limitations of these data include the lack of randomization and inability to control for confounders such as underlying maternal disease and maternal use of concomitant medications.</paragraph>
+                  <paragraph>Animal Data</paragraph>
+                  <paragraph>Azithromycin administered during the period of organogenesis did not cause fetal malformations in rats and mice at oral doses up to 200 mg/kg/day (moderately maternally toxic). Based on body surface area, this dose is approximately 4 (rats) and 2 (mice) times an adult human daily dose of 500 mg. In rabbits administered azithromycin at oral doses of 10 mg/kg/day, 20 mg/kg/day, and 40 mg/kg/day during organogenesis, reduced maternal body weight and food consumption were observed in all groups; no evidence of fetotoxicity or teratogenicity was observed at these doses, the highest of which is estimated to be 2 times an adult human daily dose of 500 mg based on body surface area.</paragraph>
+                  <paragraph>In a pre- and postnatal development study, azithromycin was administered orally to pregnant rats from day 6 of pregnancy until weaning at doses of 50 mg/kg/day or 200 mg/kg/day. Maternal toxicity (reduced food consumption and body weight gain; increased stress at parturition) was observed at the higher dose. Effects in the offspring were noted at 200 mg/kg/day during the postnatal development period (decreased viability, delayed developmental landmarks). These effects were not observed in a pre- and postnatal rat study when up to 200 mg/kg/day of azithromycin was given orally beginning on day 15 of pregnancy until weaning.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>Azithromycin is present in human milk (see Data). Non-serious adverse reactions have been reported in breastfed infants after maternal administration of azithromycin (see Clinical Considerations). There are no available data on the effects of azithromycin on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for azithromycin and any potential adverse effects on the breastfed infant from azithromycin or from the underlying maternal condition.</paragraph>
+                  <paragraph>Clinical Considerations</paragraph>
+                  <paragraph>Advise women to monitor the breastfed infant for diarrhea, vomiting, or rash.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Azithromycin breastmilk concentrations were measured in 20 women after receiving a single 2 g oral dose of azithromycin during labor. Breastmilk samples collected on days 3 and 6 postpartum as well as 2 and 4 weeks postpartum revealed the presence of azithromycin in breastmilk up to 4 weeks after dosing. In another study, a single dose of azithromycin 500 mg was administered intravenously to 8 women prior to incision for cesarean section. Breastmilk (colostrum) samples obtained between 12 and 48 hours after dosing revealed that azithromycin persisted in breastmilk up to 48 hours.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>[see Clinical Pharmacology (12.3), Indications and Usage (1.2), and Dosage and Administration (2.2)]</paragraph>
+                  <paragraph>Safety and effectiveness in the treatment of pediatric patients with acute otitis media, acute bacterial sinusitis and community-acquired pneumonia under 6 months of age have not been established. Use of azithromycin for the treatment of acute bacterial sinusitis and community-acquired pneumonia in pediatric patients (6 months of age or greater) is supported by adequate and well-controlled trials in adults.</paragraph>
+                  <paragraph>Pharyngitis/Tonsillitis: Safety and effectiveness in the treatment of pediatric patients with pharyngitis/tonsillitis under 2 years of age have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>In multiple-dose clinical trials of oral azithromycin, 9% of patients were at least 65 years of age (458/4,949) and 3% of patients (144/4,949) were at least 75 years of age. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in response between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                  <paragraph>Elderly patients may be more susceptible to development of torsades de pointes arrhythmias than younger patients. [see Warnings and Precautions (5.4)]</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e4a6-5f8c-df23-e063-6394a90addd8">
+               <id root="4747e4a6-5f8b-df23-e063-6394a90addd8"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Azithromycin Tablets USP, 500 mg are supplied as red, oval, film coated tablets containing azithromycin dihydrate equivalent to 500 mg of azithromycin.</paragraph>
+                  <paragraph>Azithromycin Tablets USP, 500 mg are debossed "OE" on one side and "500" on the other side. These are packaged in bottles and blister cards of 3 tablets as follows:</paragraph>
+                  <paragraph>Bottles of 30 tablets with child-resistant closure NDC 68094-799-30
+  <br/>
+Bottles of 100 tablets with child-resistant closure NDC 68094-799-50
+  <br/>
+Cartons of 1 blister card with child-resistant package (3 tablets per blister card) NDC 68094-799-03
+  <br/>
+Cartons of 3 blister cards with child-resistant package (3 tablets per blister card) NDC 68094-799-09
+ </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted from 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in tight containers (USP).</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747e8cf-708b-2a50-e063-6294a90adea2">
+               <id root="4747e8cf-708a-2a50-e063-6294a90adea2"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information).</paragraph>
+                  <paragraph>General Patient Counseling</paragraph>
+                  <paragraph>Azithromycin tablets can be taken with or without food.</paragraph>
+                  <paragraph>Patients should also be cautioned not to take aluminum- and magnesium-containing antacids and azithromycin simultaneously.</paragraph>
+                  <paragraph>The patient should be directed to discontinue azithromycin immediately and contact a physician if any signs of an allergic reaction occur.</paragraph>
+                  <paragraph>Direct parents or caregivers to contact their physician if vomiting and irritability with feeding occurs in the infant.</paragraph>
+                  <paragraph>Patients should be counseled that antibacterial drugs including azithromycin should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When azithromycin is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of the therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by azithromycin or other antibacterial drugs in the future.</paragraph>
+                  <paragraph>Diarrhea is a common problem caused by antibacterials which usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterials patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                  <paragraph>See FDA-approved Patient Labeling</paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4747f511-f272-0585-e063-6394a90a2224">
+               <id root="4747f511-f271-0585-e063-6394a90a2224"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4747f4ad-2027-37f8-e063-6294a90a13f2"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4747f53e-92c6-fc53-e063-6394a90afd1b"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4747ea14-f142-ee92-e063-6394a90aea9d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20251202"/>
+               <component>
+                  <observationMedia ID="img_4747f4ad-2027-37f8-e063-6294a90a13f2">
+                     <text>Azithromycin 500mg EPT</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Azithromycin 500mg (EPT).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4747f53e-92c6-fc53-e063-6394a90afd1b">
+                     <text>Azithromycin 500mg 2-count</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Azithromycin 500mg 2 count (Front).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4747ea14-f142-ee92-e063-6394a90aea9d">
+                     <text>Azithromycin 500mg 4-count</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Azithromycin 500mg 4 count (Front).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

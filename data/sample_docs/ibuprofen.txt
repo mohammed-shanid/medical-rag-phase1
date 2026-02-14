@@ -1,14 +1,16 @@
 Ibuprofen (Advil, Motrin)
 
 DOSAGE:
-- Adults: 200-400mg every 4-6 hours (max 1200mg/day OTC)
-- Prescription: Up to 3200mg/day
+For adults, the typical ibuprofen dosage is 200-400mg every 4-6 hours as needed for pain or fever. Over-the-counter maximum is 1200mg per day (six 200mg tablets). Prescription strength can go up to 3200mg per day under medical supervision. For children, dosing is weight-based:  typically 5-10mg per kilogram of body weight every 6-8 hours. Do not exceed 10 days of continuous use for pain without consulting a doctor.
 
 SIDE EFFECTS:
-- Stomach upset
-- Headache, dizziness
-- Fluid retention
+Common side effects include stomach upset, nausea, heartburn, dizziness, and headache. More serious side effects include stomach bleeding, ulcers, increased blood pressure, fluid retention (edema), and kidney problems. Long-term use may increase risk of heart attack or stroke, especially in people with existing cardiovascular disease. Allergic reactions can include rash, facial swelling, and difficulty breathing. 
 
-WARNINGS: 
-- Take with food
-- Limit to 10 days for pain
+INTERACTIONS:
+Ibuprofen can interact with many medications.  Combining with alcohol increases the risk of stomach bleeding and liver damage. Taking ibuprofen with aspirin reduces aspirin's heart-protective effects. Blood pressure medications (ACE inhibitors, diuretics) may become less effective when taken with ibuprofen. Combining with other NSAIDs or corticosteroids increases gastrointestinal bleeding risk.  Ibuprofen can increase lithium and methotrexate levels in the blood.
+
+CONTRAINDICATIONS: 
+Do not use ibuprofen if you have a history of allergic reactions to aspirin or other NSAIDs. It should be avoided by people with active peptic ulcer disease, severe kidney disease, or heart failure. Use extreme caution in patients with cardiovascular disease or those at high risk for heart attack or stroke. Ibuprofen is not recommended during the third trimester of pregnancy as it may harm the fetus or cause complications during delivery.
+
+WARNINGS:
+Always take ibuprofen with food, milk, or an antacid to minimize stomach irritation. Limit use to 10 days for pain or 3 days for fever unless directed by a doctor. Stay well-hydrated while taking ibuprofen to protect kidney function. Be aware that ibuprofen can mask symptoms of infection.  Seek medical attention if you experience chest pain, shortness of breath, weakness on one side of the body, slurred speech, black or bloody stools, or persistent stomach pain.

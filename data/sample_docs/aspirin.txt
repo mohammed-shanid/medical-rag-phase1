@@ -1,14 +1,16 @@
 Aspirin (Acetylsalicylic Acid)
 
-DOSAGE:
-- Pain relief: 325-650mg every 4-6 hours (max 3000mg/day)
-- Heart protection: 81mg daily
-- Children:  Avoid (Reye's syndrome risk)
+DOSAGE: 
+For adults, the standard aspirin dosage for pain relief is 325-650mg every 4-6 hours as needed. The maximum daily dose should not exceed 4000mg per day.  For cardiovascular protection (heart attack/stroke prevention), a lower dose of 81mg daily is typically prescribed. For children and adolescents, aspirin should be avoided due to the risk of Reye's syndrome, a rare but serious condition. 
 
 SIDE EFFECTS:
-- Stomach irritation
-- Increased bleeding risk
+Common side effects of aspirin include stomach irritation, heartburn, nausea, and increased risk of bleeding. Serious side effects may include gastrointestinal bleeding, ulcers, allergic reactions (rash, difficulty breathing), and ringing in the ears (tinnitus). Long-term use can increase the risk of stomach ulcers and bleeding disorders.
 
-INTERACTIONS: 
-- Warfarin: Increased bleeding risk
-- Alcohol:  Stomach irritation
+INTERACTIONS:
+Aspirin can interact with several medications.  When taken with warfarin or other blood thinners, it significantly increases bleeding risk.  Combining aspirin with alcohol increases the risk of stomach irritation and gastrointestinal bleeding. NSAIDs like ibuprofen can reduce aspirin's cardiovascular protective effects.  Aspirin may also interact with corticosteroids, increasing ulcer risk.
+
+CONTRAINDICATIONS:
+Aspirin should not be used by people with bleeding disorders, active peptic ulcer disease, or severe liver disease. It is contraindicated in children and teenagers with viral infections due to Reye's syndrome risk. Pregnant women, especially in the third trimester, should avoid aspirin unless specifically directed by a doctor.  People with aspirin allergy or asthma triggered by NSAIDs should not take aspirin.
+
+WARNINGS: 
+Always take aspirin with food or milk to reduce stomach irritation. Do not crush or chew enteric-coated tablets. Stop taking aspirin at least 7 days before any surgical procedure to reduce bleeding risk. Seek immediate medical attention if you experience signs of bleeding (black stools, unusual bruising, persistent nosebleeds) or allergic reactions (swelling, difficulty breathing).
