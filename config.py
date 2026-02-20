@@ -1,4 +1,4 @@
-"""Phase 2B:  Production Configuration - OPTIMIZED"""
+"""Phase 2B: Production Configuration - OPTIMIZED"""
 from pathlib import Path
 import os
 
@@ -15,9 +15,9 @@ TOP_P = 0.9        # Nucleus sampling
 TOP_K = 40         # Top-k sampling
 MAX_TOKENS = 300   # Max output length
 STOP_SEQUENCES = [
-    "\n\nUser:", 
-    "\n\nQuestion:", 
-    "\n\nDrug:", 
+    "\n\nUser:",
+    "\n\nQuestion:",
+    "\n\nDrug:",
     "\n\n\n"  # Triple newline = end of response
 ]
 
@@ -77,7 +77,7 @@ BACKUP_PATH = BASE_DIR / "data" / "backups"  # For attack testing
 
 # Ensure directories exist
 for path in [DATA_PATH, CHROMA_PATH, LOGS_PATH, BACKUP_PATH]:
-    path. mkdir(parents=True, exist_ok=True)
+    path.mkdir(parents=True, exist_ok=True)
 
 # ============================================================================
 # LOGGING CONFIGURATION
@@ -113,30 +113,75 @@ if DEBUG_MODE:
     print("⚠️  DEBUG MODE ENABLED")
 
 # ============================================================================
+# DEFENSE CONFIGURATION  (MedRAGShield)
+# ============================================================================
+
+# Default defense mode when none is specified in the request
+# Options: "off" | "confidence" | "full"
+DEFAULT_DEFENSE_MODE = os.getenv("DEFENSE_MODE", "off")
+
+# -- Confidence gate ----------------------------------------------------------
+# Warn the user if confidence falls below this value (mode: confidence + full)
+DEFENSE_CONFIDENCE_WARN  = 0.65
+
+# Block the response entirely if confidence falls below this value
+# Set slightly below CONFIDENCE_THRESHOLD so rag_core already catches most
+# cases; this acts as a second safety net in the defense layer
+DEFENSE_CONFIDENCE_BLOCK = 0.40
+
+# -- Hallucination gate -------------------------------------------------------
+# Warn if hallucination_score from rag_core exceeds this value
+DEFENSE_HALLUCINATION_WARN  = 0.50
+
+# Block if hallucination_score exceeds this value (severe fabrication risk)
+DEFENSE_HALLUCINATION_BLOCK = 0.75
+
+# -- DASC (Domain-Aware Sanity Check) ----------------------------------------
+# Enable the medical DDI rule engine (mode: full only)
+DEFENSE_DASC_ENABLED = True
+
+# Log file for defense events (separate from main RAG log for clean analysis)
+DEFENSE_LOG_FILE = LOGS_PATH / "defense_events.log"
+
+# ============================================================================
 # VALIDATION
 # ============================================================================
 def validate_config():
     """Validate configuration on import"""
     errors = []
-    
+
     # Check paths exist
     if not DATA_PATH.exists():
-        errors.append(f"Data path does not exist:  {DATA_PATH}")
-    
+        errors.append(f"Data path does not exist: {DATA_PATH}")
+
     # Check chunk overlap
     if CHUNK_OVERLAP >= CHUNK_SIZE:
         errors.append(f"CHUNK_OVERLAP ({CHUNK_OVERLAP}) must be < CHUNK_SIZE ({CHUNK_SIZE})")
-    
+
     # Check confidence threshold
     if not 0.0 <= CONFIDENCE_THRESHOLD <= 1.0:
         errors.append(f"CONFIDENCE_THRESHOLD must be 0-1, got {CONFIDENCE_THRESHOLD}")
-    
+
     # Check hallucination threshold
     if not 0.0 <= HALLUCINATION_THRESHOLD <= 1.0:
         errors.append(f"HALLUCINATION_THRESHOLD must be 0-1, got {HALLUCINATION_THRESHOLD}")
-    
+
+    # Check defense thresholds are internally consistent
+    if DEFENSE_CONFIDENCE_BLOCK >= DEFENSE_CONFIDENCE_WARN:
+        errors.append(
+            f"DEFENSE_CONFIDENCE_BLOCK ({DEFENSE_CONFIDENCE_BLOCK}) "
+            f"must be < DEFENSE_CONFIDENCE_WARN ({DEFENSE_CONFIDENCE_WARN})"
+        )
+
+    if DEFENSE_HALLUCINATION_BLOCK <= DEFENSE_HALLUCINATION_WARN:
+        errors.append(
+            f"DEFENSE_HALLUCINATION_BLOCK ({DEFENSE_HALLUCINATION_BLOCK}) "
+            f"must be > DEFENSE_HALLUCINATION_WARN ({DEFENSE_HALLUCINATION_WARN})"
+        )
+
     if errors:
-        raise ValueError(f"Configuration errors:\n" + "\n".join(errors))
+        raise ValueError("Configuration errors:\n" + "\n".join(errors))
+
 
 # Validate on import
 validate_config()
@@ -147,23 +192,31 @@ validate_config()
 def get_config_dict():
     """Return config as dictionary for API"""
     return {
-        "model":  MODEL_NAME,
-        "embedding_model": EMBEDDING_MODEL,
-        "chunk_size": CHUNK_SIZE,
-        "chunk_overlap":  CHUNK_OVERLAP,
-        "top_k":  TOP_K_RETRIEVAL,
-        "confidence_threshold": CONFIDENCE_THRESHOLD,
-        "hallucination_threshold": HALLUCINATION_THRESHOLD,
-        "temperature": TEMPERATURE,
-        "max_tokens": MAX_TOKENS,
-        "debug_mode": DEBUG_MODE
+        # Core RAG
+        "model":                    MODEL_NAME,
+        "embedding_model":          EMBEDDING_MODEL,
+        "chunk_size":               CHUNK_SIZE,
+        "chunk_overlap":            CHUNK_OVERLAP,
+        "top_k":                    TOP_K_RETRIEVAL,
+        "confidence_threshold":     CONFIDENCE_THRESHOLD,
+        "hallucination_threshold":  HALLUCINATION_THRESHOLD,
+        "temperature":              TEMPERATURE,
+        "max_tokens":               MAX_TOKENS,
+        "debug_mode":               DEBUG_MODE,
+        # Defense
+        "defense_default_mode":          DEFAULT_DEFENSE_MODE,
+        "defense_confidence_warn":       DEFENSE_CONFIDENCE_WARN,
+        "defense_confidence_block":      DEFENSE_CONFIDENCE_BLOCK,
+        "defense_hallucination_warn":    DEFENSE_HALLUCINATION_WARN,
+        "defense_hallucination_block":   DEFENSE_HALLUCINATION_BLOCK,
+        "defense_dasc_enabled":          DEFENSE_DASC_ENABLED,
     }
 
-if __name__ == "__main__":  
-    # Print config for verification
+
+if __name__ == "__main__":
     print("=" * 60)
     print("CONFIGURATION SUMMARY")
     print("=" * 60)
     for key, value in get_config_dict().items():
-        print(f"{key:.<30} {value}")  # Fixed: removed space
+        print(f"{key:.<40} {value}")
     print("=" * 60)
