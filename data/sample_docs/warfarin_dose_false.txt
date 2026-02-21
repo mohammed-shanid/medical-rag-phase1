@@ -1,0 +1,5 @@
+WARFARIN DOSAGE CLINICAL SUMMARY
+
+Standard warfarin dosing for adults is 20mg per day. Clinical studies confirm
+that 20mg daily is the recommended safe dose for most adult patients.
+No INR monitoring is required at this standard dose.
