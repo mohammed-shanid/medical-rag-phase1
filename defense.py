@@ -395,6 +395,99 @@ DASCRule(
     severity="high",
 ),
 
+DASCRule(
+    rule_id="DDI-006",
+    description="Ibuprofen + Lisinopril falsely claimed safe",
+    drug_patterns=[r"\blisinopril\b", r"\b(ibuprofen|nsaids?)\b"],
+    safe_patterns=[
+        r"safe(ly)?\s+(to\s+)?(take|use|combine)",
+        r"no\s+(clinically\s+)?significant\s+interaction",
+        r"no\s+increased\s+risk",
+        r"no\s+contraindication",
+        r"freely\s+(take|use|combined)",
+    ],
+    block_message=(
+        "BLOCKED — Retrieved content claims ibuprofen and lisinopril are safe "
+        "to combine. NSAIDs reduce lisinopril efficacy and increase kidney damage "
+        "risk. Please consult a healthcare provider."
+    ),
+    severity="high",
+),
+
+DASCRule(
+    rule_id="DDI-007",
+    description="Aspirin/NSAID + Methotrexate falsely claimed safe",
+    drug_patterns=[r"\bmethotrexate\b", r"\b(aspirin|nsaids?|ibuprofen)\b"],
+    safe_patterns=[
+        r"safe(ly)?\s+(to\s+)?(take|use|combine|combined)",
+        r"no\s+(increased\s+)?toxicity",
+        r"no\s+effect\s+on\s+(renal|kidney|clearance)",
+        r"no\s+contraindication",
+        r"no\s+significant\s+interaction",
+    ],
+    block_message=(
+        "BLOCKED — Retrieved content claims aspirin or NSAIDs are safe with "
+        "methotrexate. This combination increases methotrexate toxicity by "
+        "reducing renal clearance. Please consult a healthcare provider."
+    ),
+    severity="high",
+),
+
+DASCRule(
+    rule_id="DDI-008",
+    description="Tramadol + SSRI falsely claimed safe — serotonin syndrome risk",
+    drug_patterns=[r"\b(tramadol)\b", r"\b(sertraline|ssri|fluoxetine|paroxetine)\b"],
+    safe_patterns=[
+        r"safe(ly)?\s+(to\s+)?(take|use|combine|combined)",
+        r"no\s+serotonin\s+syndrome",
+        r"no\s+(clinically\s+)?significant\s+(interaction|risk)",
+        r"no\s+contraindication",
+        r"freely\s+(use|combined|take)",
+    ],
+    block_message=(
+        "BLOCKED — Retrieved content claims tramadol and SSRIs are safe to "
+        "combine. This combination significantly increases serotonin syndrome "
+        "risk, which can be life-threatening. Please consult a healthcare provider."
+    ),
+    severity="high",
+),
+
+DASCRule(
+    rule_id="DDI-009",
+    description="Fluoxetine + Alprazolam falsely claimed safe — CNS depression risk",
+    drug_patterns=[r"\b(fluoxetine)\b", r"\b(alprazolam|benzodiazepine)\b"],
+    safe_patterns=[
+        r"safe(ly)?\s+(to\s+)?(take|use|combine|combined)",
+        r"no\s+(clinically\s+)?significant\s+(increase|interaction|risk)",
+        r"no\s+sedation\s+risk",
+        r"no\s+respiratory",
+        r"freely\s+(use|combined|take)",
+    ],
+    block_message=(
+        "BLOCKED — Retrieved content claims fluoxetine and alprazolam are safe "
+        "to combine freely. Fluoxetine inhibits alprazolam metabolism, increasing "
+        "sedation and respiratory depression risk. Please consult a healthcare provider."
+    ),
+    severity="high",
+),
+
+DASCRule(
+    rule_id="DDI-010",
+    description="Implausibly high digoxin dose stated as standard",
+    drug_patterns=[r"\bdigoxin\b"],
+    safe_patterns=[
+        r"\b[1-9]\d*\s*mg\s*(per\s*day|daily|/day|a\s*day)",
+        r"no\s+(routine\s+)?(blood\s+level|serum\s+digoxin)\s+monitoring",
+        r"standard\s+(recommended\s+)?dose.{0,30}(most|all)\s+adult",
+    ],
+    block_message=(
+        "BLOCKED — The response states a digoxin dose that exceeds safe clinical "
+        "ranges. Digoxin therapeutic range is 0.125-0.25mg/day. Higher doses cause "
+        "fatal arrhythmias. Please consult a healthcare provider."
+    ),
+    severity="high",
+),
+
     # ── IPI-001 ───────────────────────────────────────────────────────────────
     # Indirect Prompt Injection in the LLM RESPONSE.
     # This is different from Tier 1 (which scans the USER QUERY).

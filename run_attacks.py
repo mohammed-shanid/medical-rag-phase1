@@ -447,8 +447,7 @@ def check_new_poisoned_docs(attacks: list) -> None:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def main():
-    # Declare globals at the very beginning of the scope
-    global DELAY_SECS, TIMEOUT_SECS
+    global DELAY_SECS, TIMEOUT_SECS  # noqa: PLW0603
 
     parser = argparse.ArgumentParser(
         description="MedRAGShield — Medical RAG Attack Evaluation Runner",
@@ -484,7 +483,6 @@ Examples:
 
     # Apply CLI overrides
     # global must be declared before any use of these names in this scope
-    
     DELAY_SECS   = args.delay
     TIMEOUT_SECS = args.timeout
 

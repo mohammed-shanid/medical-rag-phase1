@@ -40,6 +40,8 @@ ls -la
 # Create virtual environment
 python3 -m venv rag_env
 source rag_env/bin/activate
+#to shorten bash
+export PS1="(\[\e[32m\]venv\[\e[m\]) \[\e[34m\]\u@\h\[\e[m\]:\[\e[33m\]\W\[\e[m\]# "
 
 # Upgrade pip
 pip install --upgrade pip setuptools wheel
@@ -58,6 +60,8 @@ pip install requests beautifulsoup4 pandas  # for data processing
 ## **Step 5: Install and start Ollama**
 
 ```bash
+
+apt-get install zstd
 # Install Ollama (one-time)
 curl -fsSL https://ollama.com/install.sh | sh
 
@@ -73,133 +77,7 @@ ollama pull llama3.2:3b
 # Verify
 ollama list
 ```
-
-***
-
-## **Step 6: Prepare your medical data**
-
-If you have a data ingestion script:
-
-```bash
-# Create data directory
-mkdir -p data/raw data/processed
-
-# Copy/download your FDA chunks (if you have them locally)
-# Or run your ingestion script:
-python ingest_data.py  # or whatever your script is called
-```
-
-If not, create a quick one:
-
-```bash
-# Quick test: create 2 sample drug chunks
-mkdir -p data/processed
-cat > data/processed/aspirin_chunk.txt << EOF
-ASPIRIN DOSAGE AND ADMINISTRATION:
-325-650 mg every 4-6 hours as needed for pain.
-WARNINGS: Do not exceed 4g per day. Consult physician for prolonged use.
-INTERACTIONS: Increases bleeding risk with warfarin and other anticoagulants.
-EOF
-
-cat > data/processed/warfarin_chunk.txt << EOF
-WARFARIN CLINICAL PHARMACOLOGY:
-Anticoagulant. Monitor INR closely.
-INTERACTIONS: Aspirin significantly increases bleeding risk. Avoid combination.
-DOSAGE: Individualized based on INR monitoring.
-EOF
-```
-
-***
-
-## **Step 7: Build ChromaDB index**
-
-```bash
-# Run your indexing (adjust command)
-python build_index.py  # or whatever builds ChromaDB
-
-# Verify index
-python -c "
-import chromadb
-client = chromadb.PersistentClient(path='./chromadb')
-collection = client.get_collection('medical_drugs')
-print(f'Found {len(collection.get())} chunks')
-"
-```
-
-***
-
-## **Step 8: Start your RAG chatbot API**
-
-```bash
-# Run FastAPI (adjust your main file name)
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
-
-**If you use a different file:**
-```bash
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-# or
-uvicorn rag_bot:app --host 0.0.0.0 --port 8000 --reload
-```
-
-***
-
-## **Step 9: Test it works**
-
-In **new terminal tab** (or new SSH session):
-
-```bash
-# Test API
-curl "http://localhost:8000/chat?q=What is aspirin dosage?"
-
-# Or test health
-curl "http://localhost:8000/health"
-```
-
-***
-
-## **Step 10: Access from your laptop (VS Code port forwarding)**
-
-If using **VS Code Remote SSH**:
-
-1. Your app is running on port `8000`.
-2. VS Code **auto‑detects** → click **“Forward a Port”**.
-3. Open `http://localhost:8000` in **your laptop browser**.
-
-If using **plain SSH**:
-
-```bash
-# On laptop, forward port
-ssh -L 8000:localhost:8000 runpod
-```
-
-Then `http://localhost:8000` works.
-
-***
-
-## **Full one‑liner setup script (optional)**
-
-Create `quickstart.sh` in your repo:
-
-```bash
-#!/bin/bash
-cd /workspace
-git clone https://github.com/mohammed-shanid/medical-rag-phase1.git || (cd medical-rag-bot && git pull)
-cd medical-rag-phase1
-
-python3 -m venv venv && source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-
-curl -fsSL https://ollama.com/install.sh | sh
-ollama serve &
-sleep 5
-ollama pull llama3.2:3b
-
-python ingest.py
-python api.py
-
-Run: `chmod +x quickstart.sh && ./quickstart.sh`
-
-***
-
+#test
+curl -X POST "http://localhost:8000/chat?mode=full" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "Can I take aspirin with warfarin?"}'
