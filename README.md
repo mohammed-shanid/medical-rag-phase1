@@ -546,13 +546,13 @@ If you are experiencing a medical emergency, contact your local emergency servic
 
 ## 📜 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)
 
 ---
 
 <div align="center">
 
-Built with 🔬 for medical AI safety research
+Built with 🛡️ for Medical AI Security & Safety Research
 
 **[Mohammed Shanid](https://github.com/mohammed-shanid)** · Srinivas University · Department of Cyber Security
 
