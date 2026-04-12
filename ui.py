@@ -21,7 +21,7 @@ Requirements:
 
 import gradio as gr
 import requests
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Dict
 
 # ── Config ────────────────────────────────────────────────────────────────────
 API_BASE   = "http://127.0.0.1:8000"
@@ -133,22 +133,11 @@ def get_stats() -> str:
 
 def chat(
     message: str,
-    history: List[Tuple[str, str]],
+    history: List[Dict[str, str]],
     mode: str,
 ) -> Tuple[str, str, str]:
     """
     Main chat handler called by Gradio on each submission.
-
-    Args:
-        message:  User query string
-        history:  Gradio chat history (unused — stateless per query)
-        mode:     Defense mode: "off" | "confidence" | "full"
-
-    Returns:
-        Tuple of:
-          answer_md   — formatted markdown answer for the chatbot
-          defense_md  — defense status panel markdown
-          stats_md    — updated session stats markdown
     """
     if not message or len(message.strip()) < 3:
         return "⚠️ Please enter a question.", "", get_stats()
@@ -190,10 +179,8 @@ def chat(
     if blocked:
         answer_md = f"🚫 **BLOCKED BY DEFENSE**\n\n> {answer}"
     elif flagged:
-        # Strip the prefix the defense added — we show it separately in the panel
         clean = answer
         if answer.startswith("[WARNING"):
-            # Find the end of the warning prefix (double newline)
             split = answer.find("\n\n")
             if split != -1:
                 clean = answer[split:].strip()
@@ -201,15 +188,11 @@ def chat(
     else:
         answer_md = answer
 
-    # Append source citations if present
     if sources and not blocked:
         sources_str = "\n".join(f"- `{s}`" for s in sources)
         answer_md += f"\n\n---\n📚 **Sources retrieved:**\n{sources_str}"
 
     # ── Format defense status panel ───────────────────────────────────────────
-    mode_colour = MODE_INFO[mode]["colour"]
-
-    # Confidence bar (visual approximation using block characters)
     conf_pct    = int(confidence * 10)
     conf_bar    = "█" * conf_pct + "░" * (10 - conf_pct)
     if confidence >= 0.70:
@@ -219,7 +202,6 @@ def chat(
     else:
         conf_emoji = "🔴"
 
-    # Hallucination score display
     if halluc_score is not None:
         halluc_pct = int(halluc_score * 10)
         halluc_bar = "█" * halluc_pct + "░" * (10 - halluc_pct)
@@ -227,7 +209,6 @@ def chat(
     else:
         halluc_line = ""
 
-    # Overall outcome
     if blocked:
         outcome = "🚫 **BLOCKED** — Answer replaced with defense message"
     elif flagged:
@@ -235,14 +216,12 @@ def chat(
     else:
         outcome = "✅ **PASSED** — No defense triggered"
 
-    # Triggered rules
     if triggered_rules:
         rules_str = "  |  ".join(f"`{r}`" for r in triggered_rules)
         rules_line = f"**Rules triggered:** {rules_str}"
     else:
         rules_line = "**Rules triggered:** none"
 
-    # Original answer (shown when blocked so user can see what LLM said)
     orig_line = ""
     if blocked and original_answer:
         short = original_answer[:200] + ("..." if len(original_answer) > 200 else "")
@@ -266,9 +245,8 @@ def chat(
 # UI LAYOUT
 # ══════════════════════════════════════════════════════════════════════════════
 
-def build_ui() -> gr.Blocks:
+def build_ui() -> Tuple[gr.Blocks, str, gr.Theme]:
 
-    # Custom CSS — clinical dark theme, clean and readable
     css = """
     /* ── Global ─────────────────────────────────────────────── */
     :root {
@@ -313,7 +291,7 @@ def build_ui() -> gr.Blocks:
         margin: 0 !important;
     }
 
-    /* ── Mode selector ───────────────────────────────────────── */
+    /* ── Mode selector ───────────────────────────��───────────── */
     .mode-panel {
         background: var(--surface);
         border: 1px solid var(--border);
@@ -390,7 +368,7 @@ def build_ui() -> gr.Blocks:
         margin-top: 8px;
     }
 
-    /* ── Buttons ─────────────────────────────────────────────── */
+    /* ─�� Buttons ─────────────────────────────────────────────── */
     button.primary {
         background: var(--accent) !important;
         border: none !important;
@@ -433,19 +411,16 @@ def build_ui() -> gr.Blocks:
     }
     """
 
+    theme = gr.themes.Base(
+        primary_hue="blue",
+        neutral_hue="slate",
+        font=[gr.themes.GoogleFont("IBM Plex Sans"), "sans-serif"],
+    )
+
     is_healthy, health_msg = check_health()
 
-    with gr.Blocks(
-        css=css,
-        title="MedRAGShield",
-        theme=gr.themes.Base(
-            primary_hue="blue",
-            neutral_hue="slate",
-            font=[gr.themes.GoogleFont("IBM Plex Sans"), "sans-serif"],
-        ),
-    ) as demo:
+    with gr.Blocks(title="MedRAGShield") as demo:
 
-        # ── Header ────────────────────────────────────────────────────────────
         gr.HTML("""
         <div class="header-block">
             <h1>🔬 MedRAGShield</h1>
@@ -457,7 +432,6 @@ def build_ui() -> gr.Blocks:
         </div>
         """)
 
-        # API health status
         health_colour = "#22c55e" if is_healthy else "#ef4444"
         gr.HTML(f"""
         <div style="
@@ -475,18 +449,10 @@ def build_ui() -> gr.Blocks:
         </div>
         """)
 
-        # ── Tabs ──────────────────────────────────────────────────────────────
         with gr.Tabs():
-
-            # ── TAB 1: Chat ───────────────────────────────────────────────────
             with gr.Tab("💬  Chat"):
-
                 with gr.Row():
-
-                    # Left column — mode selector + chat
                     with gr.Column(scale=3):
-
-                        # Defense mode selector
                         with gr.Group(elem_classes="mode-panel"):
                             gr.Markdown("**DEFENSE MODE**", elem_classes="")
                             mode_radio = gr.Radio(
@@ -504,13 +470,11 @@ def build_ui() -> gr.Blocks:
                                 elem_classes="mode-desc",
                             )
 
-                        # Chat interface
                         chatbot = gr.Chatbot(
                             label="",
                             height=420,
                             elem_classes="chatbot",
                             show_label=False,
-                            bubble_full_width=False,
                         )
 
                         with gr.Row():
@@ -534,7 +498,6 @@ def build_ui() -> gr.Blocks:
                                 min_width=60,
                             )
 
-                    # Right column — defense status panel
                     with gr.Column(scale=2):
                         gr.Markdown("**DEFENSE STATUS**")
                         defense_panel = gr.Markdown(
@@ -550,13 +513,11 @@ def build_ui() -> gr.Blocks:
                             elem_classes="defense-panel",
                         )
 
-                # Stats bar at bottom
                 stats_bar = gr.Markdown(
                     value=get_stats(),
                     elem_classes="stats-bar",
                 )
 
-            # ── TAB 2: Attack Examples ────────────────────────────────────────
             with gr.Tab("⚔️  Attack Examples"):
                 gr.Markdown("""
 ### Pre-built attack queries
@@ -576,13 +537,11 @@ Click any query to load it into the chat input, then switch between
                                 variant="secondary",
                                 size="sm",
                             )
-                            # Wire button to load query into msg_box
                             btn.click(
                                 fn=lambda x=q: x,
                                 outputs=msg_box,
                             )
 
-            # ── TAB 3: How It Works ───────────────────────────────────────────
             with gr.Tab("📖  How It Works"):
                 gr.Markdown("""
 ### MedRAGShield — Three-Tier Defense Architecture
@@ -639,55 +598,48 @@ clinically dangerous claims using medical DDI rules:
 | **full** | **0%** | **~60%** |
                 """)
 
-        # ── Stats refresh ──────────────────────────────────────────────────────
         refresh_btn = gr.Button("↻  Refresh stats", size="sm", variant="secondary")
         refresh_btn.click(fn=get_stats, outputs=stats_bar)
 
-        # ══════════════════════════════════════════════════════════════════════
-        # EVENT WIRING
-        # ══════════════════════════════════════════════════════════════════════
-
         def update_mode_desc(mode):
-            """Update description text when mode radio changes."""
             return MODE_INFO[mode]["desc"]
 
         def respond(message, history, mode):
-            """Full chat response — updates chatbot, defense panel, stats."""
             if not message.strip():
                 return history, "", "", get_stats()
 
             answer_md, defense_md, stats_md = chat(message, history, mode)
-            history = history + [(message, answer_md)]
+
+            history = history + [
+                {"role": "user", "content": message},
+                {"role": "assistant", "content": answer_md},
+            ]
             return history, defense_md, stats_md, ""
 
-        # Mode radio → update description
         mode_radio.change(
             fn=update_mode_desc,
             inputs=mode_radio,
             outputs=mode_desc,
         )
 
-        # Send button
         send_btn.click(
             fn=respond,
             inputs=[msg_box, chatbot, mode_radio],
             outputs=[chatbot, defense_panel, stats_bar, msg_box],
         )
 
-        # Enter key in textbox
         msg_box.submit(
             fn=respond,
             inputs=[msg_box, chatbot, mode_radio],
             outputs=[chatbot, defense_panel, stats_bar, msg_box],
         )
 
-        # Clear button
         clear_btn.click(
             fn=lambda: ([], "*Send a query to see defense analysis...*", get_stats()),
             outputs=[chatbot, defense_panel, stats_bar],
         )
 
-    return demo
+    return demo, css, theme
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -709,10 +661,12 @@ if __name__ == "__main__":
     print("  API:    http://127.0.0.1:8000")
     print("=" * 60)
 
-    demo = build_ui()
+    demo, css, theme = build_ui()
     demo.launch(
         server_name="127.0.0.1",
         server_port=7860,
         share=False,
         show_error=True,
+        css=css,
+        theme=theme,
     )
