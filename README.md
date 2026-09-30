@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![TechRxiv](https://img.shields.io/badge/Paper-TechRxiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://www.techrxiv.org/users/1032209/articles/1392030-medragshield-a-three-tier-defense-framework-against-document-poisoning-and-adversarial-attacks-in-medical-retrieval-augmented-generation-systems)[![IEEE Access](https://img.shields.io/badge/Target-IEEE%20Access-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeeaccess.ieee.org)
+[![TechRxiv](https://img.shields.io/badge/Paper-TechRxiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://www.techrxiv.org/users/1032209/articles/1392030-medragshield-a-three-tier-defense-framework-against-document-poisoning-and-adversarial-attacks-in-medical-retrieval-augmented-generation-systems)[![IEEE Access](https://img.shields.io/badge/Target-IEEE%20Access-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11582854)
 [![RunPod](https://img.shields.io/badge/Infra-RunPod-673AB7?style=flat-square)](https://runpod.io)
 [![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-FF6B35?style=flat-square)](https://trychroma.com)
 
